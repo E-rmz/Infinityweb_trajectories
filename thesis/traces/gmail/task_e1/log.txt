@@ -1,0 +1,48 @@
+[17:35:58] task=task_e1 difficulty=easy budget=40 max_depth=4 top_k=6
+[17:35:58] instruction: Star Sarah Chen's Q1 product roadmap email.
+[17:35:58] starting server on port 8765 for /Users/ehsan/Desktop/Thesis/webinfinity/webarena-infinity/apps/gmail
+[17:35:59] launching browser
+[17:36:00] seed state captured (hash=8e9baa18)
+[17:36:00] running MCTS...
+[17:36:03]   [rollout 1/40] 2.8s  paths=1  states=2
+[17:36:08]   [rollout 2/40] 5.4s  paths=1  states=6
+[17:36:14]   [rollout 3/40] 5.4s  paths=1  states=10
+[17:36:19]   [rollout 4/40] 5.4s  paths=1  states=14
+[17:36:24]   [rollout 5/40] 5.4s  paths=1  states=18
+[17:36:30]   [rollout 6/40] 5.4s  paths=1  states=21
+[17:36:33]   [rollout 7/40] 3.6s  paths=2  states=22
+[17:36:37]   [rollout 8/40] 3.6s  paths=3  states=23
+[17:36:40]   [rollout 9/40] 3.6s  paths=4  states=24
+[17:36:44]   [rollout 10/40] 3.6s  paths=4  states=24
+[17:36:48]   [rollout 11/40] 3.6s  paths=4  states=24
+[17:36:51]   [rollout 12/40] 3.6s  paths=4  states=24
+[17:36:55]   [rollout 13/40] 3.6s  paths=5  states=25
+[17:36:58]   [rollout 14/40] 3.6s  paths=6  states=26
+[17:37:02]   [rollout 15/40] 3.6s  paths=6  states=26
+[17:37:07]   [rollout 16/40] 5.3s  paths=6  states=28
+[17:37:13]   [rollout 17/40] 5.3s  paths=6  states=30
+[17:37:18]   [rollout 18/40] 5.4s  paths=6  states=33
+[17:37:23]   [rollout 19/40] 5.3s  paths=6  states=36
+[17:37:29]   [rollout 20/40] 5.3s  paths=6  states=36
+[17:37:32]   [rollout 21/40] 3.6s  paths=6  states=36
+[17:37:36]   [rollout 22/40] 3.6s  paths=7  states=37
+[17:37:40]   [rollout 23/40] 4.4s  paths=8  states=38
+[17:37:45]   [rollout 24/40] 4.4s  paths=8  states=38
+[17:37:49]   [rollout 25/40] 4.4s  paths=9  states=39
+[17:37:54]   [rollout 26/40] 4.5s  paths=10  states=40
+[17:37:58]   [rollout 27/40] 4.4s  paths=10  states=40
+[17:38:03]   [rollout 28/40] 5.3s  paths=10  states=43
+[17:38:09]   [rollout 29/40] 5.3s  paths=10  states=45
+[17:38:14]   [rollout 30/40] 5.3s  paths=10  states=47
+[17:38:19]   [rollout 31/40] 5.3s  paths=10  states=49
+[17:38:25]   [rollout 32/40] 5.3s  paths=11  states=51
+[17:38:29]   [rollout 33/40] 4.4s  paths=12  states=52
+[17:38:34]   [rollout 34/40] 5.3s  paths=12  states=52
+[17:38:39]   [rollout 35/40] 4.4s  paths=13  states=53
+[17:38:43]   [rollout 36/40] 4.4s  paths=13  states=53
+[17:38:48]   [rollout 37/40] 4.4s  paths=14  states=54
+[17:38:52]   [rollout 38/40] 4.4s  paths=14  states=54
+[17:38:57]   [rollout 39/40] 4.4s  paths=15  states=55
+[17:39:01]   [rollout 40/40] 4.4s  paths=16  states=56
+[17:39:01] MCTS done in 180.9s — paths=16
+[17:39:01] persisting 16 passing trajector(y/ies)

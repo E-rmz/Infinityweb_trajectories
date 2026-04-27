@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "message": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+  "terminal_depth": 3,
+  "state_hash": "d6386015dd6c0822443a2a5f6a2e958b0367514e",
+  "found_in_rollout": 39
+}

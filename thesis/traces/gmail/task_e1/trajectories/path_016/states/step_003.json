@@ -1,0 +1,6271 @@
+{
+  "_nextEmailId": 131,
+  "_nextFilterId": 20,
+  "_nextLabelId": 30,
+  "_seedVersion": 1,
+  "blockedSenders": [
+    {
+      "blockedAt": "2025-11-15T10:00:00Z",
+      "email": "spam@marketing-blast.com"
+    },
+    {
+      "blockedAt": "2025-12-20T14:00:00Z",
+      "email": "annoying@daily-deals.biz"
+    },
+    {
+      "blockedAt": "2026-01-10T09:00:00Z",
+      "email": "noreply@fake-bank-alert.com"
+    },
+    {
+      "blockedAt": "2026-01-25T16:00:00Z",
+      "email": "offers@shadydeals.xyz"
+    },
+    {
+      "blockedAt": "2026-02-05T11:00:00Z",
+      "email": "winner@prize-notification.scam"
+    }
+  ],
+  "contacts": [
+    {
+      "avatarColor": "#EA4335",
+      "email": "sarah.chen@techcorp.io",
+      "id": "contact_01",
+      "isFrequent": true,
+      "name": "Sarah Chen"
+    },
+    {
+      "avatarColor": "#34A853",
+      "email": "marcus.w@designhub.com",
+      "id": "contact_02",
+      "isFrequent": true,
+      "name": "Marcus Williams"
+    },
+    {
+      "avatarColor": "#FBBC04",
+      "email": "emily.r@startupventures.co",
+      "id": "contact_03",
+      "isFrequent": true,
+      "name": "Emily Rodriguez"
+    },
+    {
+      "avatarColor": "#4285F4",
+      "email": "james.obrien@lawfirm.legal",
+      "id": "contact_04",
+      "isFrequent": false,
+      "name": "James O'Brien"
+    },
+    {
+      "avatarColor": "#9C27B0",
+      "email": "priya.sharma@cloudnine.dev",
+      "id": "contact_05",
+      "isFrequent": true,
+      "name": "Priya Sharma"
+    },
+    {
+      "avatarColor": "#FF5722",
+      "email": "david.kim@financeplus.com",
+      "id": "contact_06",
+      "isFrequent": true,
+      "name": "David Kim"
+    },
+    {
+      "avatarColor": "#009688",
+      "email": "lisa.n@creativeagency.co",
+      "id": "contact_07",
+      "isFrequent": false,
+      "name": "Lisa Nakamura"
+    },
+    {
+      "avatarColor": "#795548",
+      "email": "tom.bradley@realtyhome.com",
+      "id": "contact_08",
+      "isFrequent": false,
+      "name": "Tom Bradley"
+    },
+    {
+      "avatarColor": "#E91E63",
+      "email": "ana.g@globalhealth.org",
+      "id": "contact_09",
+      "isFrequent": true,
+      "name": "Ana Gutierrez"
+    },
+    {
+      "avatarColor": "#3F51B5",
+      "email": "robert.singh@university.edu",
+      "id": "contact_10",
+      "isFrequent": false,
+      "name": "Robert Singh"
+    },
+    {
+      "avatarColor": "#FF9800",
+      "email": "michelle.park@mediaco.tv",
+      "id": "contact_11",
+      "isFrequent": true,
+      "name": "Michelle Park"
+    },
+    {
+      "avatarColor": "#607D8B",
+      "email": "carlos.m@logisticspro.net",
+      "id": "contact_12",
+      "isFrequent": false,
+      "name": "Carlos Mendez"
+    },
+    {
+      "avatarColor": "#8BC34A",
+      "email": "rachel.foster@nonprofitaid.org",
+      "id": "contact_13",
+      "isFrequent": false,
+      "name": "Rachel Foster"
+    },
+    {
+      "avatarColor": "#00BCD4",
+      "email": "kevin.zhao@quantumlab.tech",
+      "id": "contact_14",
+      "isFrequent": true,
+      "name": "Kevin Zhao"
+    },
+    {
+      "avatarColor": "#673AB7",
+      "email": "sophie.l@eurodesign.fr",
+      "id": "contact_15",
+      "isFrequent": false,
+      "name": "Sophie Laurent"
+    },
+    {
+      "avatarColor": "#2196F3",
+      "email": "nate.patel@devops.tools",
+      "id": "contact_16",
+      "isFrequent": true,
+      "name": "Nate Patel"
+    },
+    {
+      "avatarColor": "#F44336",
+      "email": "hannah.b@fitnessfirst.com",
+      "id": "contact_17",
+      "isFrequent": false,
+      "name": "Hannah Brooks"
+    },
+    {
+      "avatarColor": "#CDDC39",
+      "email": "omar.ar@consulting.group",
+      "id": "contact_18",
+      "isFrequent": false,
+      "name": "Omar Al-Rashid"
+    },
+    {
+      "avatarColor": "#FF6F00",
+      "email": "jennifer.wu@biomedresearch.com",
+      "id": "contact_19",
+      "isFrequent": true,
+      "name": "Jennifer Wu"
+    },
+    {
+      "avatarColor": "#455A64",
+      "email": "daniel.t@architectsllp.com",
+      "id": "contact_20",
+      "isFrequent": false,
+      "name": "Daniel Thompson"
+    },
+    {
+      "avatarColor": "#7B1FA2",
+      "email": "maya.patel@techcorp.io",
+      "id": "contact_21",
+      "isFrequent": true,
+      "name": "Maya Patel"
+    },
+    {
+      "avatarColor": "#1B5E20",
+      "email": "chris.evans@sportsnews.com",
+      "id": "contact_22",
+      "isFrequent": false,
+      "name": "Chris Evans"
+    },
+    {
+      "avatarColor": "#BF360C",
+      "email": "aisha.m@edtech.academy",
+      "id": "contact_23",
+      "isFrequent": false,
+      "name": "Aisha Mohammed"
+    },
+    {
+      "avatarColor": "#0097A7",
+      "email": "ryan.cooper@saasplatform.io",
+      "id": "contact_24",
+      "isFrequent": true,
+      "name": "Ryan Cooper"
+    }
+  ],
+  "currentUser": {
+    "avatarColor": "#1a73e8",
+    "email": "alex.johnson@gmail.com",
+    "id": "user_1",
+    "name": "Alex Johnson"
+  },
+  "emails": [
+    {
+      "attachments": [
+        {
+          "name": "Q1_Roadmap_v3.pdf",
+          "size": "2.4 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Hi Alex, I've attached the updated Q1 product roadmap for your review. Please take a look before our meeting on Thursday.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-24T09:15:00Z",
+      "from": {
+        "email": "sarah.chen@techcorp.io",
+        "name": "Sarah Chen"
+      },
+      "hasAttachments": true,
+      "id": 1,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_9"
+      ],
+      "snippet": "Hi Alex, I've attached the updated Q1 product roadmap for your review. Please take a look before our meeting on Thursday.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Q1 Product Roadmap Review",
+      "threadId": "thread_1",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "I found the root cause. The timeout was set to 30s but the new endpoint needs at least 45s. I'll push a fix today.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-24T08:42:00Z",
+      "from": {
+        "email": "priya.sharma@cloudnine.dev",
+        "name": "Priya Sharma"
+      },
+      "hasAttachments": false,
+      "id": 2,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_9"
+      ],
+      "snippet": "I found the root cause. The timeout was set to 30s but the new endpoint needs at least 45s. I'll push a fix today.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "Re: API Integration Issue",
+      "threadId": "thread_2",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Thanks Priya, that makes sense. Can you also add retry logic while you're at it?",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-24T07:30:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": false,
+      "id": 3,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": true,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "SENT",
+        "CATEGORY_PRIMARY",
+        "label_1"
+      ],
+      "snippet": "Thanks Priya, that makes sense. Can you also add retry logic while you're at it?",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: API Integration Issue",
+      "threadId": "thread_2",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hey Alex, we're seeing intermittent failures on the payment gateway API. Getting 504 errors about 15% of the time.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-23T16:20:00Z",
+      "from": {
+        "email": "priya.sharma@cloudnine.dev",
+        "name": "Priya Sharma"
+      },
+      "hasAttachments": false,
+      "id": 4,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_9"
+      ],
+      "snippet": "Hey Alex, we're seeing intermittent failures on the payment gateway API. Getting 504 errors about 15% of the time.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "API Integration Issue",
+      "threadId": "thread_2",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Jan2026_Financial_Report.xlsx",
+          "size": "1.8 MB"
+        },
+        {
+          "name": "Revenue_Breakdown.pdf",
+          "size": "890 KB"
+        }
+      ],
+      "bcc": [],
+      "body": "Please find attached the January financial summary. Revenue was up 12% MoM, with notable growth in enterprise segment.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-23T14:00:00Z",
+      "from": {
+        "email": "david.kim@financeplus.com",
+        "name": "David Kim"
+      },
+      "hasAttachments": true,
+      "id": 5,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_3",
+        "label_15"
+      ],
+      "snippet": "Please find attached the January financial summary. Revenue was up 12% MoM, with notable growth in enterprise segment.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Monthly Financial Report - January 2026",
+      "threadId": "thread_3",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "DesignSystem_v4.2.fig",
+          "size": "15.3 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "The new component library is ready for review. Key changes: updated color tokens, new navigation patterns, and improved responsive breakpoints.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-23T11:30:00Z",
+      "from": {
+        "email": "marcus.w@designhub.com",
+        "name": "Marcus Williams"
+      },
+      "hasAttachments": true,
+      "id": 6,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1"
+      ],
+      "snippet": "The new component library is ready for review. Key changes: updated color tokens, new navigation patterns, and improved responsive breakpoints.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "Design System Update v4.2",
+      "threadId": "thread_4",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Alex, I'd like to introduce you to a Series B company in the AI space. They're looking for integration partners and I think there's a great fit.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-23T09:00:00Z",
+      "from": {
+        "email": "emily.r@startupventures.co",
+        "name": "Emily Rodriguez"
+      },
+      "hasAttachments": false,
+      "id": 7,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_11",
+        "label_17"
+      ],
+      "snippet": "Alex, I'd like to introduce you to a Series B company in the AI space. They're looking for integration partners and I think there's a great fit.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Partnership Opportunity - Series B Company",
+      "threadId": "thread_5",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "QEC_Paper_2026.pdf",
+          "size": "3.1 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Our team just published a new paper on quantum error correction codes. Thought you might find it interesting given our conversation last week.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-22T17:45:00Z",
+      "from": {
+        "email": "kevin.zhao@quantumlab.tech",
+        "name": "Kevin Zhao"
+      },
+      "hasAttachments": true,
+      "id": 8,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_8",
+        "label_19"
+      ],
+      "snippet": "Our team just published a new paper on quantum error correction codes. Thought you might find it interesting given our conversation last week.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Research Paper: Quantum Error Correction",
+      "threadId": "thread_6",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Migration_Plan.pdf",
+          "size": "1.2 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Here's the migration plan for moving our CI/CD from Jenkins to GitHub Actions. Estimated 3 weeks for full cutover.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-22T15:20:00Z",
+      "from": {
+        "email": "nate.patel@devops.tools",
+        "name": "Nate Patel"
+      },
+      "hasAttachments": true,
+      "id": 9,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_9",
+        "label_17"
+      ],
+      "snippet": "Here's the migration plan for moving our CI/CD from Jenkins to GitHub Actions. Estimated 3 weeks for full cutover.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "CI/CD Pipeline Migration Plan",
+      "threadId": "thread_7",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Quick summary from today's standup: Backend team finishing auth refactor, Frontend starting dashboard redesign, QA blocked on staging env.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-22T10:30:00Z",
+      "from": {
+        "email": "maya.patel@techcorp.io",
+        "name": "Maya Patel"
+      },
+      "hasAttachments": false,
+      "id": 10,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_10"
+      ],
+      "snippet": "Quick summary from today's standup: Backend team finishing auth refactor, Frontend starting dashboard redesign, QA blocked on staging env.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Team Standup Notes - Feb 22",
+      "threadId": "thread_8",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Vendor_Agreement_Redlined.docx",
+          "size": "456 KB"
+        }
+      ],
+      "bcc": [],
+      "body": "Alex, I've reviewed the vendor agreement. A few clauses need attention - see my redlined version attached. Let's discuss by end of week.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-21T16:00:00Z",
+      "from": {
+        "email": "james.obrien@lawfirm.legal",
+        "name": "James O'Brien"
+      },
+      "hasAttachments": true,
+      "id": 11,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_11",
+        "label_17"
+      ],
+      "snippet": "Alex, I've reviewed the vendor agreement. A few clauses need attention - see my redlined version attached. Let's discuss by end of week.",
+      "snoozeUntil": null,
+      "starType": "red-star",
+      "subject": "Contract Review: Vendor Agreement",
+      "threadId": "thread_9",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "We're organizing a spring health fair on March 15th. Would you be interested in volunteering? We need help with registration and logistics.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-21T12:15:00Z",
+      "from": {
+        "email": "ana.g@globalhealth.org",
+        "name": "Ana Gutierrez"
+      },
+      "hasAttachments": false,
+      "id": 12,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_2"
+      ],
+      "snippet": "We're organizing a spring health fair on March 15th. Would you be interested in volunteering? We need help with registration and logistics.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Volunteer Event: Spring Health Fair",
+      "threadId": "thread_10",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Good news - we identified the bottleneck. It was a missing database index on the analytics table. Response times are back to normal.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-21T09:45:00Z",
+      "from": {
+        "email": "ryan.cooper@saasplatform.io",
+        "name": "Ryan Cooper"
+      },
+      "hasAttachments": false,
+      "id": 13,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_9"
+      ],
+      "snippet": "Good news - we identified the bottleneck. It was a missing database index on the analytics table. Response times are back to normal.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: Platform Performance Issues",
+      "threadId": "thread_11",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "We'd love to have you speak at EuroDesign Summit 2026 in Paris. The theme is \"AI-Driven Design Systems.\" Travel and accommodation covered.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-20T14:30:00Z",
+      "from": {
+        "email": "sophie.l@eurodesign.fr",
+        "name": "Sophie Laurent"
+      },
+      "hasAttachments": false,
+      "id": 14,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_4",
+        "label_17"
+      ],
+      "snippet": "We'd love to have you speak at EuroDesign Summit 2026 in Paris. The theme is \"AI-Driven Design Systems.\" Travel and accommodation covered.",
+      "snoozeUntil": null,
+      "starType": "blue-star",
+      "subject": "Bonjour! Conference Speaker Invitation",
+      "threadId": "thread_12",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "New listing matching your criteria - 3BR/2BA, 1,800 sqft, updated kitchen, large backyard. Open house this Saturday 1-4pm.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-20T11:00:00Z",
+      "from": {
+        "email": "tom.bradley@realtyhome.com",
+        "name": "Tom Bradley"
+      },
+      "hasAttachments": false,
+      "id": 15,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_2"
+      ],
+      "snippet": "New listing matching your criteria - 3BR/2BA, 1,800 sqft, updated kitchen, large backyard. Open house this Saturday 1-4pm.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Property Listing: 45 Oak Avenue",
+      "threadId": "thread_13",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hi Alex, we're producing a segment on tech innovation in 2026. Would you be available for a 15-minute interview next week?",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-20T08:20:00Z",
+      "from": {
+        "email": "michelle.park@mediaco.tv",
+        "name": "Michelle Park"
+      },
+      "hasAttachments": false,
+      "id": 16,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_18"
+      ],
+      "snippet": "Hi Alex, we're producing a segment on tech innovation in 2026. Would you be available for a 15-minute interview next week?",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Interview Request: Tech Innovation Panel",
+      "threadId": "thread_14",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Office_FloorPlan_v2.pdf",
+          "size": "5.6 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Attached are the revised floor plans for the office renovation. The open workspace area has been expanded per your feedback.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-19T16:45:00Z",
+      "from": {
+        "email": "daniel.t@architectsllp.com",
+        "name": "Daniel Thompson"
+      },
+      "hasAttachments": true,
+      "id": 17,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1"
+      ],
+      "snippet": "Attached are the revised floor plans for the office renovation. The open workspace area has been expanded per your feedback.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Office Renovation Plans",
+      "threadId": "thread_15",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hey everyone! Let's plan our Q1 team dinner. I'm thinking March 7th at Zafferano. Please reply with your availability.",
+      "category": "primary",
+      "cc": [
+        {
+          "email": "maya.patel@techcorp.io",
+          "name": "Maya Patel"
+        },
+        {
+          "email": "priya.sharma@cloudnine.dev",
+          "name": "Priya Sharma"
+        }
+      ],
+      "date": "2026-02-19T13:00:00Z",
+      "from": {
+        "email": "sarah.chen@techcorp.io",
+        "name": "Sarah Chen"
+      },
+      "hasAttachments": false,
+      "id": 18,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_10"
+      ],
+      "snippet": "Hey everyone! Let's plan our Q1 team dinner. I'm thinking March 7th at Zafferano. Please reply with your availability.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Quarterly Team Dinner",
+      "threadId": "thread_16",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your order has been shipped via FedEx Express. Tracking: FX9283746510. Estimated delivery: Feb 21.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-19T10:30:00Z",
+      "from": {
+        "email": "carlos.m@logisticspro.net",
+        "name": "Carlos Mendez"
+      },
+      "hasAttachments": false,
+      "id": 19,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_5"
+      ],
+      "snippet": "Your order has been shipped via FedEx Express. Tracking: FX9283746510. Estimated delivery: Feb 21.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Shipping Update: Order #LP-2026-8834",
+      "threadId": "thread_17",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Alex, this sounds promising. Let's set up a call with our research team. How does Thursday at 2pm PST work for you?",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-18T15:00:00Z",
+      "from": {
+        "email": "jennifer.wu@biomedresearch.com",
+        "name": "Jennifer Wu"
+      },
+      "hasAttachments": false,
+      "id": 20,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_18"
+      ],
+      "snippet": "Alex, this sounds promising. Let's set up a call with our research team. How does Thursday at 2pm PST work for you?",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: Collaboration Proposal",
+      "threadId": "thread_18",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "The department would be honored if you could give a guest lecture on distributed systems. We have an opening on March 20th.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-18T11:00:00Z",
+      "from": {
+        "email": "robert.singh@university.edu",
+        "name": "Robert Singh"
+      },
+      "hasAttachments": false,
+      "id": 21,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_8"
+      ],
+      "snippet": "The department would be honored if you could give a guest lecture on distributed systems. We have an opening on March 20th.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Guest Lecture Invitation - CS 401",
+      "threadId": "thread_19",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Donation_Receipt_2025.pdf",
+          "size": "120 KB"
+        }
+      ],
+      "bcc": [],
+      "body": "Thank you for your generous contribution of $500 to NonprofitAid. Attached is your tax receipt for the 2025 fiscal year.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-17T09:00:00Z",
+      "from": {
+        "email": "rachel.foster@nonprofitaid.org",
+        "name": "Rachel Foster"
+      },
+      "hasAttachments": true,
+      "id": 22,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_3",
+        "label_5"
+      ],
+      "snippet": "Thank you for your generous contribution of $500 to NonprofitAid. Attached is your tax receipt for the 2025 fiscal year.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Donation Receipt - Tax Year 2025",
+      "threadId": "thread_20",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Workshop_Notes.pdf",
+          "size": "2.1 MB"
+        },
+        {
+          "name": "Action_Items.xlsx",
+          "size": "45 KB"
+        }
+      ],
+      "bcc": [],
+      "body": "Great workshop yesterday. Attached are the whiteboard photos and action items. Please review your assigned items by Friday.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-17T07:30:00Z",
+      "from": {
+        "email": "omar.ar@consulting.group",
+        "name": "Omar Al-Rashid"
+      },
+      "hasAttachments": true,
+      "id": 23,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_10"
+      ],
+      "snippet": "Great workshop yesterday. Attached are the whiteboard photos and action items. Please review your assigned items by Friday.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Strategy Workshop Follow-up",
+      "threadId": "thread_21",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "March_Workout_Plan.pdf",
+          "size": "340 KB"
+        }
+      ],
+      "bcc": [],
+      "body": "Hi Alex! I've customized your workout plan for March based on your progress. Let me know if you want any adjustments.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-16T14:00:00Z",
+      "from": {
+        "email": "hannah.b@fitnessfirst.com",
+        "name": "Hannah Brooks"
+      },
+      "hasAttachments": true,
+      "id": 24,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_7",
+        "label_2"
+      ],
+      "snippet": "Hi Alex! I've customized your workout plan for March based on your progress. Let me know if you want any adjustments.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your Workout Plan for March",
+      "threadId": "thread_22",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "ML_Module1.pdf",
+          "size": "4.2 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "You're enrolled in \"Advanced Machine Learning\" starting March 3rd. Your first module materials are attached.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-15T16:30:00Z",
+      "from": {
+        "email": "aisha.m@edtech.academy",
+        "name": "Aisha Mohammed"
+      },
+      "hasAttachments": true,
+      "id": 25,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_8"
+      ],
+      "snippet": "You're enrolled in \"Advanced Machine Learning\" starting March 3rd. Your first module materials are attached.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Course Enrollment Confirmation",
+      "threadId": "thread_23",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Brand_Concepts.pdf",
+          "size": "8.7 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Here are three brand refresh concepts for review. Each explores a different direction. Let me know your thoughts.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-15T11:00:00Z",
+      "from": {
+        "email": "lisa.n@creativeagency.co",
+        "name": "Lisa Nakamura"
+      },
+      "hasAttachments": true,
+      "id": 26,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_11"
+      ],
+      "snippet": "Here are three brand refresh concepts for review. Each explores a different direction. Let me know your thoughts.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "Brand Refresh Concepts",
+      "threadId": "thread_24",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hey Alex, my friend can't make it to the game this Sunday. Want his ticket? Section 108, Row 12. Face value $85.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-14T20:00:00Z",
+      "from": {
+        "email": "chris.evans@sportsnews.com",
+        "name": "Chris Evans"
+      },
+      "hasAttachments": false,
+      "id": 27,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_2",
+        "label_14"
+      ],
+      "snippet": "Hey Alex, my friend can't make it to the game this Sunday. Want his ticket? Section 108, Row 12. Face value $85.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Sunday Game Tickets Available",
+      "threadId": "thread_25",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Friendly reminder: we need your W-2 and 1099 forms by March 1st to prepare your 2025 tax return on time.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-14T10:00:00Z",
+      "from": {
+        "email": "david.kim@financeplus.com",
+        "name": "David Kim"
+      },
+      "hasAttachments": false,
+      "id": 28,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_3",
+        "label_17"
+      ],
+      "snippet": "Friendly reminder: we need your W-2 and 1099 forms by March 1st to prepare your 2025 tax return on time.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Tax Season Reminder: Documents Needed",
+      "threadId": "thread_26",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "From our retro: 1) Improve code review turnaround, 2) Set up automated E2E tests, 3) Reduce meeting overhead. Owners assigned.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-13T17:00:00Z",
+      "from": {
+        "email": "priya.sharma@cloudnine.dev",
+        "name": "Priya Sharma"
+      },
+      "hasAttachments": false,
+      "id": 29,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_9"
+      ],
+      "snippet": "From our retro: 1) Improve code review turnaround, 2) Set up automated E2E tests, 3) Reduce meeting overhead. Owners assigned.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Sprint Retro Action Items",
+      "threadId": "thread_27",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "There's a VC networking event at The Grand Hotel on Feb 20th, 6-9pm. Great opportunity to meet Series A/B investors. Want to go?",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-13T09:30:00Z",
+      "from": {
+        "email": "emily.r@startupventures.co",
+        "name": "Emily Rodriguez"
+      },
+      "hasAttachments": false,
+      "id": 30,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_2"
+      ],
+      "snippet": "There's a VC networking event at The Grand Hotel on Feb 20th, 6-9pm. Great opportunity to meet Series A/B investors. Want to go?",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "VC Meetup Next Thursday",
+      "threadId": "thread_28",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Sarah Chen has endorsed you for Cloud Architecture. You now have 47 endorsements for this skill.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-24T07:00:00Z",
+      "from": {
+        "email": "notifications@linkedin.com",
+        "name": "LinkedIn"
+      },
+      "hasAttachments": false,
+      "id": 31,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "Sarah Chen has endorsed you for Cloud Architecture. You now have 47 endorsements for this skill.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Sarah Chen endorsed you for Cloud Architecture",
+      "threadId": "thread_31",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your tweet about microservices architecture is trending. 250 likes, 89 retweets, 34 replies.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-23T19:00:00Z",
+      "from": {
+        "email": "notify@twitter.com",
+        "name": "Twitter"
+      },
+      "hasAttachments": false,
+      "id": 32,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "Your tweet about microservices architecture is trending. 250 likes, 89 retweets, 34 replies.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your tweet got 250 likes",
+      "threadId": "thread_32",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Pull request \"feat: add rate limiting middleware\" has been merged into main by priya-sharma.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-23T15:30:00Z",
+      "from": {
+        "email": "notifications@github.com",
+        "name": "GitHub"
+      },
+      "hasAttachments": false,
+      "id": 33,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL",
+        "label_1"
+      ],
+      "snippet": "Pull request \"feat: add rate limiting middleware\" has been merged into main by priya-sharma.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "[techcorp/api-gateway] PR #847 merged",
+      "threadId": "thread_33",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "You sent 142 messages last week across 8 channels. Your most active channel was #engineering.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-23T06:00:00Z",
+      "from": {
+        "email": "feedback@slack.com",
+        "name": "Slack"
+      },
+      "hasAttachments": false,
+      "id": 34,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "You sent 142 messages last week across 8 channels. Your most active channel was #engineering.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Weekly Activity Summary",
+      "threadId": "thread_34",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Marcus shared: \"Excited to announce our new design system is now open source! Check it out at...\"",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-22T20:00:00Z",
+      "from": {
+        "email": "notification@facebookmail.com",
+        "name": "Facebook"
+      },
+      "hasAttachments": false,
+      "id": 35,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "Marcus shared: \"Excited to announce our new design system is now open source! Check it out at...\"",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Marcus Williams posted in Bay Area Tech",
+      "threadId": "thread_35",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your profile views are up 30% from last week. Top viewers are from companies like Google, Microsoft, and Stripe.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-22T08:00:00Z",
+      "from": {
+        "email": "notifications@linkedin.com",
+        "name": "LinkedIn"
+      },
+      "hasAttachments": false,
+      "id": 36,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "Your profile views are up 30% from last week. Top viewers are from companies like Google, Microsoft, and Stripe.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "15 people viewed your profile this week",
+      "threadId": "thread_36",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Issue \"Implement OAuth2 PKCE flow\" has been assigned to you by nate-patel.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-21T14:20:00Z",
+      "from": {
+        "email": "notifications@github.com",
+        "name": "GitHub"
+      },
+      "hasAttachments": false,
+      "id": 37,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL",
+        "label_1"
+      ],
+      "snippet": "Issue \"Implement OAuth2 PKCE flow\" has been assigned to you by nate-patel.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "[cloudnine/auth-service] Issue #312 assigned to you",
+      "threadId": "thread_37",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "5 new people followed you this week, including @techconference2026 and @designweekly.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-21T07:00:00Z",
+      "from": {
+        "email": "no-reply@mail.instagram.com",
+        "name": "Instagram"
+      },
+      "hasAttachments": false,
+      "id": 38,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "5 new people followed you this week, including @techconference2026 and @designweekly.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "You have new followers",
+      "threadId": "thread_38",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Monthly JS meetup on Feb 27th at Google SF. Topic: \"Server Components in Production.\" RSVP now.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-20T16:00:00Z",
+      "from": {
+        "email": "info@meetup.com",
+        "name": "Meetup"
+      },
+      "hasAttachments": false,
+      "id": 39,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL",
+        "label_8"
+      ],
+      "snippet": "Monthly JS meetup on Feb 27th at Google SF. Topic: \"Server Components in Production.\" RSVP now.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "New event: Bay Area JavaScript Meetup",
+      "threadId": "thread_39",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your comment on \"Why Rust is eating the world\" received 500+ upvotes.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-20T12:00:00Z",
+      "from": {
+        "email": "noreply@reddit.com",
+        "name": "Reddit"
+      },
+      "hasAttachments": false,
+      "id": 40,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "Your comment on \"Why Rust is eating the world\" received 500+ upvotes.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Trending in r/programming",
+      "threadId": "thread_40",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "You have 23 unread messages in #general and 8 in #help-wanted.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-19T21:00:00Z",
+      "from": {
+        "email": "noreply@discord.com",
+        "name": "Discord"
+      },
+      "hasAttachments": false,
+      "id": 41,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "You have 23 unread messages in #general and 8 in #help-wanted.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "New messages in Tech Community",
+      "threadId": "thread_41",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Kevin shared: \"Our quantum error correction paper just hit 1000 citations! Humbled by the response from the research community.\"",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-18T10:00:00Z",
+      "from": {
+        "email": "notifications@linkedin.com",
+        "name": "LinkedIn"
+      },
+      "hasAttachments": false,
+      "id": 42,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "Kevin shared: \"Our quantum error correction paper just hit 1000 citations! Humbled by the response from the research community.\"",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Kevin Zhao shared a post",
+      "threadId": "thread_42",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "New security advisories for lodash (high), express (medium), and jsonwebtoken (critical).",
+      "category": "social",
+      "cc": [],
+      "date": "2026-02-17T09:00:00Z",
+      "from": {
+        "email": "notifications@github.com",
+        "name": "GitHub"
+      },
+      "hasAttachments": false,
+      "id": 43,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL",
+        "label_1",
+        "label_17"
+      ],
+      "snippet": "New security advisories for lodash (high), express (medium), and jsonwebtoken (critical).",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Dependabot: 3 security advisories",
+      "threadId": "thread_43",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Based on your browsing: Sony WH-1000XM6 at $299 (20% off), MacBook Pro sleeve at $39, USB-C hub bundle at $45.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-24T06:00:00Z",
+      "from": {
+        "email": "store-news@amazon.com",
+        "name": "Amazon"
+      },
+      "hasAttachments": false,
+      "id": 44,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "Based on your browsing: Sony WH-1000XM6 at $299 (20% off), MacBook Pro sleeve at $39, USB-C hub bundle at $45.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your recommendations: Tech deals of the week",
+      "threadId": "thread_44",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Upgrade your skills with Google, Meta, and IBM professional certificates. Sale ends February 28th.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-23T10:00:00Z",
+      "from": {
+        "email": "no-reply@coursera.org",
+        "name": "Coursera"
+      },
+      "hasAttachments": false,
+      "id": 45,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS",
+        "label_8"
+      ],
+      "snippet": "Upgrade your skills with Google, Meta, and IBM professional certificates. Sale ends February 28th.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Last chance: 40% off Professional Certificates",
+      "threadId": "thread_45",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Join 10,000+ designers at Config 2026 in San Francisco. Early bird pricing: $499 (save $200).",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-22T12:00:00Z",
+      "from": {
+        "email": "newsletter@figma.com",
+        "name": "Figma"
+      },
+      "hasAttachments": false,
+      "id": 46,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "Join 10,000+ designers at Config 2026 in San Francisco. Early bird pricing: $499 (save $200).",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Config 2026: Early bird tickets now available",
+      "threadId": "thread_46",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "AI-powered code completion, improved Kubernetes support, and 40% faster indexing. Upgrade today.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-21T08:00:00Z",
+      "from": {
+        "email": "news@jetbrains.com",
+        "name": "JetBrains"
+      },
+      "hasAttachments": false,
+      "id": 47,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "AI-powered code completion, improved Kubernetes support, and 40% faster indexing. Upgrade today.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "IntelliJ IDEA 2026.1 is here!",
+      "threadId": "thread_47",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Discover lightweight layers perfect for spring. Free shipping on orders $75+.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-20T07:00:00Z",
+      "from": {
+        "email": "newsletter@uniqlo.com",
+        "name": "Uniqlo"
+      },
+      "hasAttachments": false,
+      "id": 48,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "Discover lightweight layers perfect for spring. Free shipping on orders $75+.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Spring Collection: New arrivals",
+      "threadId": "thread_48",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Limited time fares to Europe. San Francisco to Paris from $489, London from $399, Barcelona from $459.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-19T09:00:00Z",
+      "from": {
+        "email": "deals@united.com",
+        "name": "United Airlines"
+      },
+      "hasAttachments": false,
+      "id": 49,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS",
+        "label_4"
+      ],
+      "snippet": "Limited time fares to Europe. San Francisco to Paris from $489, London from $399, Barcelona from $459.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "Flash Sale: SFO to Paris from $489",
+      "threadId": "thread_49",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "The most powerful iPhone ever. A18 Pro chip, 48MP camera system, all-day battery. Pre-order now.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-18T08:00:00Z",
+      "from": {
+        "email": "news@apple.com",
+        "name": "Apple"
+      },
+      "hasAttachments": false,
+      "id": 50,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "The most powerful iPhone ever. A18 Pro chip, 48MP camera system, all-day battery. Pre-order now.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Introducing iPhone 17 Pro",
+      "threadId": "thread_50",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Based on your library: \"AI Superpowers\" by Kai-Fu Lee. Free with your membership.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-17T10:00:00Z",
+      "from": {
+        "email": "recommendations@audible.com",
+        "name": "Audible"
+      },
+      "hasAttachments": false,
+      "id": 51,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "Based on your library: \"AI Superpowers\" by Kai-Fu Lee. Free with your membership.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your next great listen: AI Superpowers",
+      "threadId": "thread_51",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Exclusive for Nike Members. Use code MEMBER25 at checkout. Valid through February 28.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-16T06:00:00Z",
+      "from": {
+        "email": "promo@nike.com",
+        "name": "Nike"
+      },
+      "hasAttachments": false,
+      "id": 52,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "Exclusive for Nike Members. Use code MEMBER25 at checkout. Valid through February 28.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Members Week: 25% off everything",
+      "threadId": "thread_52",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "We curated playlists based on your taste. Check out your Discover Weekly and Release Radar.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-15T07:00:00Z",
+      "from": {
+        "email": "no-reply@spotify.com",
+        "name": "Spotify"
+      },
+      "hasAttachments": false,
+      "id": 53,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "We curated playlists based on your taste. Check out your Discover Weekly and Release Radar.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your 2026 music journey starts here",
+      "threadId": "thread_53",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Trending spots for March: Kyoto cherry blossoms, Amalfi Coast, Iceland Northern Lights. Book now.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-14T12:00:00Z",
+      "from": {
+        "email": "marketing@airbnb.com",
+        "name": "Airbnb"
+      },
+      "hasAttachments": false,
+      "id": 54,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS",
+        "label_4"
+      ],
+      "snippet": "Trending spots for March: Kyoto cherry blossoms, Amalfi Coast, Iceland Northern Lights. Book now.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Dream destinations for spring",
+      "threadId": "thread_54",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Annual Garage Sale starts this weekend. Deals on hiking gear, camping equipment, and outdoor apparel.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-02-13T06:00:00Z",
+      "from": {
+        "email": "promotions@rei.com",
+        "name": "REI"
+      },
+      "hasAttachments": false,
+      "id": 55,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "Annual Garage Sale starts this weekend. Deals on hiking gear, camping equipment, and outdoor apparel.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Garage Sale: Up to 50% off",
+      "threadId": "thread_55",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "We noticed a new sign-in to your Google Account from Chrome on Windows. If this was you, you can disregard this email.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-24T04:30:00Z",
+      "from": {
+        "email": "no-reply@accounts.google.com",
+        "name": "Google"
+      },
+      "hasAttachments": false,
+      "id": 56,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "snippet": "We noticed a new sign-in to your Google Account from Chrome on Windows. If this was you, you can disregard this email.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Security alert: New sign-in from Chrome on Windows",
+      "threadId": "thread_56",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your Chase Sapphire Reserve statement for January 2026 is now available. Total balance: $3,247.82.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-23T05:00:00Z",
+      "from": {
+        "email": "no-reply@chase.com",
+        "name": "Chase Bank"
+      },
+      "hasAttachments": false,
+      "id": 57,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_3",
+        "label_16"
+      ],
+      "snippet": "Your Chase Sapphire Reserve statement for January 2026 is now available. Total balance: $3,247.82.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your January statement is ready",
+      "threadId": "thread_57",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Project techcorp-dashboard deployed to production. Build time: 42s. URL: https://dashboard.techcorp.io",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-23T02:15:00Z",
+      "from": {
+        "email": "notifications@vercel.com",
+        "name": "Vercel"
+      },
+      "hasAttachments": false,
+      "id": 58,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1"
+      ],
+      "snippet": "Project techcorp-dashboard deployed to production. Build time: 42s. URL: https://dashboard.techcorp.io",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Deployment successful: production",
+      "threadId": "thread_58",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Team Standup \u00b7 Monday Feb 24, 2026 10:00 AM. Google Meet link: meet.google.com/abc-defg-hij",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-24T09:30:00Z",
+      "from": {
+        "email": "calendar-notification@google.com",
+        "name": "Google Calendar"
+      },
+      "hasAttachments": false,
+      "id": 59,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1",
+        "label_10"
+      ],
+      "snippet": "Team Standup \u00b7 Monday Feb 24, 2026 10:00 AM. Google Meet link: meet.google.com/abc-defg-hij",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Reminder: Team Standup in 30 minutes",
+      "threadId": "thread_59",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Payment of $4,500.00 from TechCorp Inc. has been processed. It will be deposited in 2 business days.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-22T16:00:00Z",
+      "from": {
+        "email": "notifications@stripe.com",
+        "name": "Stripe"
+      },
+      "hasAttachments": false,
+      "id": 60,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_3"
+      ],
+      "snippet": "Payment of $4,500.00 from TechCorp Inc. has been processed. It will be deposited in 2 business days.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Payment received: $4,500.00",
+      "threadId": "thread_60",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your AWS bill for January 2026 is $847.23. This is 8% higher than last month due to increased EC2 usage.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-22T03:00:00Z",
+      "from": {
+        "email": "no-reply@aws.amazon.com",
+        "name": "AWS"
+      },
+      "hasAttachments": false,
+      "id": 61,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_3",
+        "label_15"
+      ],
+      "snippet": "Your AWS bill for January 2026 is $847.23. This is 8% higher than last month due to increased EC2 usage.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "AWS Monthly Bill: $847.23",
+      "threadId": "thread_61",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Issue \"Implement user analytics dashboard\" was moved to In Review by Priya Sharma.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-21T18:00:00Z",
+      "from": {
+        "email": "jira@techcorp.atlassian.net",
+        "name": "Jira"
+      },
+      "hasAttachments": false,
+      "id": 62,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1"
+      ],
+      "snippet": "Issue \"Implement user analytics dashboard\" was moved to In Review by Priya Sharma.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "TECH-2847: Status changed to In Review",
+      "threadId": "thread_62",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Sarah Chen shared a folder with you. Open the folder to view 12 files including presentations and spreadsheets.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-21T10:00:00Z",
+      "from": {
+        "email": "no-reply@dropbox.com",
+        "name": "Dropbox"
+      },
+      "hasAttachments": false,
+      "id": 63,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1"
+      ],
+      "snippet": "Sarah Chen shared a folder with you. Open the folder to view 12 files including presentations and spreadsheets.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Sarah Chen shared \"Q1 Planning Docs\" with you",
+      "threadId": "thread_63",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Take a look back at your photos from this time last year. 23 photos and 2 videos.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-20T08:00:00Z",
+      "from": {
+        "email": "noreply-photos@google.com",
+        "name": "Google Photos"
+      },
+      "hasAttachments": false,
+      "id": 64,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_2"
+      ],
+      "snippet": "Take a look back at your photos from this time last year. 23 photos and 2 videos.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your memories from February 2025",
+      "threadId": "thread_64",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "James O'Brien sent you a document to sign. \"Non-Disclosure Agreement - TechPartners Inc.\" Please review and sign by Feb 25.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-19T14:00:00Z",
+      "from": {
+        "email": "dse@docusign.net",
+        "name": "DocuSign"
+      },
+      "hasAttachments": false,
+      "id": 65,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1",
+        "label_17"
+      ],
+      "snippet": "James O'Brien sent you a document to sign. \"Non-Disclosure Agreement - TechPartners Inc.\" Please review and sign by Feb 25.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "Please sign: NDA - TechPartners Inc.",
+      "threadId": "thread_65",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "This week in your workspace: 8 pages updated, 3 new pages created, 2 comments added.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-19T07:00:00Z",
+      "from": {
+        "email": "notifications@makenotion.com",
+        "name": "Notion"
+      },
+      "hasAttachments": false,
+      "id": 66,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1"
+      ],
+      "snippet": "This week in your workspace: 8 pages updated, 3 new pages created, 2 comments added.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Weekly digest: 8 pages updated",
+      "threadId": "thread_66",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Package delivered to front door at 2:34 PM. Tracking #: FX7294610583. Signed by: AJOHNSON.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-18T14:34:00Z",
+      "from": {
+        "email": "tracking@fedex.com",
+        "name": "FedEx"
+      },
+      "hasAttachments": false,
+      "id": 67,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_5"
+      ],
+      "snippet": "Package delivered to front door at 2:34 PM. Tracking #: FX7294610583. Signed by: AJOHNSON.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your package has been delivered",
+      "threadId": "thread_67",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "CPU usage on prod-api-3 exceeded 90% for 5 minutes. Current: 92%. Threshold: 85%.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-18T03:45:00Z",
+      "from": {
+        "email": "alerts@datadog.com",
+        "name": "Datadog"
+      },
+      "hasAttachments": false,
+      "id": 68,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1",
+        "label_17"
+      ],
+      "snippet": "CPU usage on prod-api-3 exceeded 90% for 5 minutes. Current: 92%. Threshold: 85%.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Alert: High CPU usage on prod-api-3",
+      "threadId": "thread_68",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Order #GPA.3394-0721-5892. YouTube Premium (Family) - $22.99/month. Next billing: Mar 18.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-18T00:01:00Z",
+      "from": {
+        "email": "googleplay-noreply@google.com",
+        "name": "Google"
+      },
+      "hasAttachments": false,
+      "id": 69,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_5"
+      ],
+      "snippet": "Order #GPA.3394-0721-5892. YouTube Premium (Family) - $22.99/month. Next billing: Mar 18.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your Google Play order receipt",
+      "threadId": "thread_69",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your security score is 87/100. 3 weak passwords found, 1 reused password, 0 compromised passwords.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-16T08:00:00Z",
+      "from": {
+        "email": "support@1password.com",
+        "name": "1Password"
+      },
+      "hasAttachments": false,
+      "id": 70,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "snippet": "Your security score is 87/100. 3 weak passwords found, 1 reused password, 0 compromised passwords.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your 1Password security report",
+      "threadId": "thread_70",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your answer on \"How to optimize React re-renders with useMemo\" was accepted. +15 reputation.",
+      "category": "forums",
+      "cc": [],
+      "date": "2026-02-23T13:00:00Z",
+      "from": {
+        "email": "do-not-reply@stackoverflow.email",
+        "name": "Stack Overflow"
+      },
+      "hasAttachments": false,
+      "id": 71,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_FORUMS",
+        "label_8"
+      ],
+      "snippet": "Your answer on \"How to optimize React re-renders with useMemo\" was accepted. +15 reputation.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your answer was accepted: \"How to optimize React re-renders\"",
+      "threadId": "thread_71",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Top stories: \"Show HN: Open-source AI coding assistant,\" \"Why we moved from microservices back to monolith.\"",
+      "category": "forums",
+      "cc": [],
+      "date": "2026-02-22T06:00:00Z",
+      "from": {
+        "email": "hn@ycombinator.com",
+        "name": "Hacker News"
+      },
+      "hasAttachments": false,
+      "id": 72,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_FORUMS",
+        "label_6"
+      ],
+      "snippet": "Top stories: \"Show HN: Open-source AI coding assistant,\" \"Why we moved from microservices back to monolith.\"",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "HN Digest: Top stories this week",
+      "threadId": "thread_72",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Top articles this week: Real-time collaboration, Deno 3.0 deep dive, Understanding WebTransport.",
+      "category": "forums",
+      "cc": [],
+      "date": "2026-02-21T06:00:00Z",
+      "from": {
+        "email": "digest@dev.to",
+        "name": "Dev.to"
+      },
+      "hasAttachments": false,
+      "id": 73,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_FORUMS",
+        "label_6"
+      ],
+      "snippet": "Top articles this week: Real-time collaboration, Deno 3.0 deep dive, Understanding WebTransport.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Trending: \"Building a real-time collaboration engine\"",
+      "threadId": "thread_73",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "CodeFlow AI - Your intelligent code review assistant. 1,247 upvotes. \"This is exactly what we needed!\"",
+      "category": "forums",
+      "cc": [],
+      "date": "2026-02-20T06:00:00Z",
+      "from": {
+        "email": "hello@producthunt.com",
+        "name": "Product Hunt"
+      },
+      "hasAttachments": false,
+      "id": 74,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_FORUMS"
+      ],
+      "snippet": "CodeFlow AI - Your intelligent code review assistant. 1,247 upvotes. \"This is exactly what we needed!\"",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Product of the Day: CodeFlow AI",
+      "threadId": "thread_74",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Popular stories: \"Writing a TCP stack from scratch,\" \"Memory allocator benchmarks,\" \"New LLVM optimizations.\"",
+      "category": "forums",
+      "cc": [],
+      "date": "2026-02-19T06:00:00Z",
+      "from": {
+        "email": "digest@lobste.rs",
+        "name": "Lobsters"
+      },
+      "hasAttachments": false,
+      "id": 75,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_FORUMS",
+        "label_6"
+      ],
+      "snippet": "Popular stories: \"Writing a TCP stack from scratch,\" \"Memory allocator benchmarks,\" \"New LLVM optimizations.\"",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Lobsters Weekly: Systems Programming",
+      "threadId": "thread_75",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Someone posted an answer to \"TypeScript conditional types with nested generics.\" View the answer.",
+      "category": "forums",
+      "cc": [],
+      "date": "2026-02-17T11:00:00Z",
+      "from": {
+        "email": "do-not-reply@stackoverflow.email",
+        "name": "Stack Overflow"
+      },
+      "hasAttachments": false,
+      "id": 76,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_FORUMS",
+        "label_8"
+      ],
+      "snippet": "Someone posted an answer to \"TypeScript conditional types with nested generics.\" View the answer.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "New answer on your question about TypeScript generics",
+      "threadId": "thread_76",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Fed Chair signals possible rate cuts in Q2. Tesla hits $300/share. Apple Vision Pro sales surge 200%.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-24T06:30:00Z",
+      "from": {
+        "email": "crew@morningbrew.com",
+        "name": "Morning Brew"
+      },
+      "hasAttachments": false,
+      "id": 77,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_6"
+      ],
+      "snippet": "Fed Chair signals possible rate cuts in Q2. Tesla hits $300/share. Apple Vision Pro sales surge 200%.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Daily Brew: Fed signals rate cuts",
+      "threadId": "thread_77",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "After 2 years of hiring freezes, FAANG companies are ramping up. Here's what's different this time.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-22T07:00:00Z",
+      "from": {
+        "email": "gergely@pragmaticengineer.com",
+        "name": "The Pragmatic Engineer"
+      },
+      "hasAttachments": false,
+      "id": 78,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_6",
+        "label_19"
+      ],
+      "snippet": "After 2 years of hiring freezes, FAANG companies are ramping up. Here's what's different this time.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "Big Tech hiring is back - what changed?",
+      "threadId": "thread_78",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "GPT-5 benchmarks, Rust 2.0 announced, Docker alternatives, PostgreSQL 17 features.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-21T06:00:00Z",
+      "from": {
+        "email": "dan@tldrnewsletter.com",
+        "name": "TLDR Newsletter"
+      },
+      "hasAttachments": false,
+      "id": 79,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_6"
+      ],
+      "snippet": "GPT-5 benchmarks, Rust 2.0 announced, Docker alternatives, PostgreSQL 17 features.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "TLDR: GPT-5 benchmarks leaked",
+      "threadId": "thread_79",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Long-form analysis of how AI is reshaping information retrieval and what it means for Google.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-19T08:00:00Z",
+      "from": {
+        "email": "newsletter@ben-evans.com",
+        "name": "Benedict Evans"
+      },
+      "hasAttachments": false,
+      "id": 80,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_6",
+        "label_19"
+      ],
+      "snippet": "Long-form analysis of how AI is reshaping information retrieval and what it means for Google.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "AI and the future of search",
+      "threadId": "thread_80",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "How AI is disrupting SaaS businesses by enabling customers to build their own tools.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-17T07:00:00Z",
+      "from": {
+        "email": "ben@stratechery.com",
+        "name": "Stratechery"
+      },
+      "hasAttachments": false,
+      "id": 81,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_6"
+      ],
+      "snippet": "How AI is disrupting SaaS businesses by enabling customers to build their own tools.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "The Great AI Unbundling",
+      "threadId": "thread_81",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Can you review our updated investor deck? We're presenting to Sequoia next week.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-15T09:00:00Z",
+      "from": {
+        "email": "emily.r@startupventures.co",
+        "name": "Emily Rodriguez"
+      },
+      "hasAttachments": false,
+      "id": 82,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": true,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_11"
+      ],
+      "snippet": "Can you review our updated investor deck? We're presenting to Sequoia next week.",
+      "snoozeUntil": "2026-02-25T08:00:00Z",
+      "starType": null,
+      "subject": "Investor Deck Review",
+      "threadId": "thread_82",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Please submit the following documents for mortgage pre-approval: pay stubs, tax returns, bank statements.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-12T10:00:00Z",
+      "from": {
+        "email": "tom.bradley@realtyhome.com",
+        "name": "Tom Bradley"
+      },
+      "hasAttachments": false,
+      "id": 83,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": true,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_PRIMARY",
+        "label_3"
+      ],
+      "snippet": "Please submit the following documents for mortgage pre-approval: pay stubs, tax returns, bank statements.",
+      "snoozeUntil": "2026-02-26T09:00:00Z",
+      "starType": null,
+      "subject": "Mortgage Pre-approval Documents",
+      "threadId": "thread_83",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hi Alex, it's been a year since your last check-up. Please schedule an appointment at your convenience.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-10T08:00:00Z",
+      "from": {
+        "email": "ana.g@globalhealth.org",
+        "name": "Ana Gutierrez"
+      },
+      "hasAttachments": false,
+      "id": 84,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": true,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_PRIMARY",
+        "label_7"
+      ],
+      "snippet": "Hi Alex, it's been a year since your last check-up. Please schedule an appointment at your convenience.",
+      "snoozeUntil": "2026-03-01T08:00:00Z",
+      "starType": null,
+      "subject": "Annual Check-up Reminder",
+      "threadId": "thread_84",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Sprint 14 goals: Complete auth refactor, start dashboard redesign, fix top 5 bugs.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-10T11:00:00Z",
+      "from": {
+        "email": "sarah.chen@techcorp.io",
+        "name": "Sarah Chen"
+      },
+      "hasAttachments": false,
+      "id": 85,
+      "isArchived": true,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_10"
+      ],
+      "snippet": "Sprint 14 goals: Complete auth refactor, start dashboard redesign, fix top 5 bugs.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Meeting notes: Sprint planning",
+      "threadId": "thread_85",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "All servers have been updated to the latest patch. No downtime observed. Monitoring for 24h.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-08T22:00:00Z",
+      "from": {
+        "email": "nate.patel@devops.tools",
+        "name": "Nate Patel"
+      },
+      "hasAttachments": false,
+      "id": 86,
+      "isArchived": true,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_PRIMARY",
+        "label_1"
+      ],
+      "snippet": "All servers have been updated to the latest patch. No downtime observed. Monitoring for 24h.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Server maintenance complete",
+      "threadId": "thread_86",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Updated the icon library with 50 new icons. Download link in the design Slack channel.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-06T14:00:00Z",
+      "from": {
+        "email": "marcus.w@designhub.com",
+        "name": "Marcus Williams"
+      },
+      "hasAttachments": false,
+      "id": 87,
+      "isArchived": true,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_PRIMARY",
+        "label_1"
+      ],
+      "snippet": "Updated the icon library with 50 new icons. Download link in the design Slack channel.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Icon library update",
+      "threadId": "thread_87",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your order #114-3847291-5738261 has shipped. Estimated delivery: Feb 10.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-05T08:00:00Z",
+      "from": {
+        "email": "ship-confirm@amazon.com",
+        "name": "Amazon"
+      },
+      "hasAttachments": false,
+      "id": 88,
+      "isArchived": true,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_UPDATES",
+        "label_5"
+      ],
+      "snippet": "Your order #114-3847291-5738261 has shipped. Estimated delivery: Feb 10.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your order has shipped: Mechanical Keyboard",
+      "threadId": "thread_88",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Dear beneficiary, you have been selected to receive a sum of five million dollars...",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-20T03:00:00Z",
+      "from": {
+        "email": "prince.of.lagos@hotmail.com",
+        "name": "Unknown Sender"
+      },
+      "hasAttachments": false,
+      "id": 89,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": true,
+      "labels": [],
+      "snippet": "Dear beneficiary, you have been selected to receive a sum of five million dollars...",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "You have inherited $5,000,000",
+      "threadId": "thread_89",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Click here to claim your prize. Limited time offer. Act now!",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-19T02:00:00Z",
+      "from": {
+        "email": "winner@luckycasino.xxx",
+        "name": "Casino Online"
+      },
+      "hasAttachments": false,
+      "id": 90,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": true,
+      "labels": [],
+      "snippet": "Click here to claim your prize. Limited time offer. Act now!",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Congratulations! You won $10,000!",
+      "threadId": "thread_90",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Limited stock! Get the latest iPhone for only $1. Click here before it's gone!",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-18T05:00:00Z",
+      "from": {
+        "email": "deals@cheapelectronics.biz",
+        "name": "Flash Sale"
+      },
+      "hasAttachments": false,
+      "id": 91,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": true,
+      "labels": [],
+      "snippet": "Limited stock! Get the latest iPhone for only $1. Click here before it's gone!",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "AMAZING DEAL: iPhone for $1!!!",
+      "threadId": "thread_91",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Click here for the most shocking news of 2026. This will change everything you know!",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-17T03:00:00Z",
+      "from": {
+        "email": "updates@randomnews247.com",
+        "name": "Newsletter Spam"
+      },
+      "hasAttachments": false,
+      "id": 92,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": true,
+      "labels": [],
+      "snippet": "Click here for the most shocking news of 2026. This will change everything you know!",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "You won't believe what happened next",
+      "threadId": "thread_92",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "The next Bitcoin is here. Invest now before it's too late. Guaranteed 1000x returns.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-22T01:00:00Z",
+      "from": {
+        "email": "invest@cryptomoon.xyz",
+        "name": "Crypto Gains"
+      },
+      "hasAttachments": false,
+      "id": 93,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": true,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [],
+      "snippet": "The next Bitcoin is here. Invest now before it's too late. Guaranteed 1000x returns.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Turn $100 into $100,000 with this coin!",
+      "threadId": "thread_93",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Revolutionary new supplement burns fat while you sleep. No exercise needed!",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-21T04:00:00Z",
+      "from": {
+        "email": "health@dietpills4u.com",
+        "name": "Weight Loss Miracle"
+      },
+      "hasAttachments": false,
+      "id": 94,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": true,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [],
+      "snippet": "Revolutionary new supplement burns fat while you sleep. No exercise needed!",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Lose 30 pounds in 30 days!",
+      "threadId": "thread_94",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your email address was selected in our annual draw. You've won EUR 750,000.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-20T06:00:00Z",
+      "from": {
+        "email": "claims@eurolottery.scam",
+        "name": "Lottery Winner"
+      },
+      "hasAttachments": false,
+      "id": 95,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": true,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [],
+      "snippet": "Your email address was selected in our annual draw. You've won EUR 750,000.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your email won the EU Lottery!",
+      "threadId": "thread_95",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Your Bank of America account has been suspended. Click here to verify your identity.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-19T03:00:00Z",
+      "from": {
+        "email": "security@bankofamerica-verify.com",
+        "name": "Account Alert"
+      },
+      "hasAttachments": false,
+      "id": 96,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": true,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [],
+      "snippet": "Your Bank of America account has been suspended. Click here to verify your identity.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Urgent: Verify your account now",
+      "threadId": "thread_96",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "You've been selected to receive a $500 Amazon Gift Card. Complete a short survey to claim.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-18T02:00:00Z",
+      "from": {
+        "email": "rewards@amazongiftcard.fake",
+        "name": "Free Gift Cards"
+      },
+      "hasAttachments": false,
+      "id": 97,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": true,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [],
+      "snippet": "You've been selected to receive a $500 Amazon Gift Card. Complete a short survey to claim.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Claim your $500 Amazon Gift Card",
+      "threadId": "thread_97",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hi Sophie, Thank you for the invitation to speak at EuroDesign Summit. I'd be happy to present on...",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-23T20:00:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": false,
+      "id": 98,
+      "isArchived": false,
+      "isDraft": true,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "DRAFT"
+      ],
+      "snippet": "Hi Sophie, Thank you for the invitation to speak at EuroDesign Summit. I'd be happy to present on...",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: Conference Talk Proposal",
+      "threadId": "thread_98",
+      "to": [
+        {
+          "email": "sophie.l@eurodesign.fr",
+          "name": "Sophie Laurent"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Dear Sarah, I'd like to propose a new project for Q2: building an AI-powered analytics dashboard that...",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-22T21:00:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": false,
+      "id": 99,
+      "isArchived": false,
+      "isDraft": true,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "DRAFT"
+      ],
+      "snippet": "Dear Sarah, I'd like to propose a new project for Q2: building an AI-powered analytics dashboard that...",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Project Proposal: AI-Powered Analytics",
+      "threadId": "thread_99",
+      "to": [
+        {
+          "email": "sarah.chen@techcorp.io",
+          "name": "Sarah Chen"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "March 7th works for me! Zafferano is a great choice. See you all there.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-19T13:30:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": false,
+      "id": 100,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": true,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "SENT"
+      ],
+      "snippet": "March 7th works for me! Zafferano is a great choice. See you all there.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: Team Dinner",
+      "threadId": "thread_100",
+      "to": [
+        {
+          "email": "sarah.chen@techcorp.io",
+          "name": "Sarah Chen"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Q2_Budget.xlsx",
+          "size": "230 KB"
+        }
+      ],
+      "bcc": [],
+      "body": "Hi David, I need approval for the Q2 infrastructure budget. Attached is the breakdown.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-18T16:00:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": true,
+      "id": 101,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": true,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "SENT"
+      ],
+      "snippet": "Hi David, I need approval for the Q2 infrastructure budget. Attached is the breakdown.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Budget Approval Request",
+      "threadId": "thread_101",
+      "to": [
+        {
+          "email": "david.kim@financeplus.com",
+          "name": "David Kim"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Recommendation_RobertSingh.pdf",
+          "size": "180 KB"
+        }
+      ],
+      "bcc": [],
+      "body": "Dear Robert, I'm happy to write a recommendation letter for your graduate program. I've attached it here.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-16T10:00:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": true,
+      "id": 102,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": true,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "SENT"
+      ],
+      "snippet": "Dear Robert, I'm happy to write a recommendation letter for your graduate program. I've attached it here.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Recommendation Letter",
+      "threadId": "thread_102",
+      "to": [
+        {
+          "email": "robert.singh@university.edu",
+          "name": "Robert Singh"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Thanks everyone for your responses! We'll update the snack selection based on your preferences.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-17T15:00:00Z",
+      "from": {
+        "email": "hr@techcorp.io",
+        "name": "HR Team"
+      },
+      "hasAttachments": false,
+      "id": 103,
+      "isArchived": true,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": true,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "CATEGORY_PRIMARY",
+        "label_12"
+      ],
+      "snippet": "Thanks everyone for your responses! We'll update the snack selection based on your preferences.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: Office Snack Preferences Survey",
+      "threadId": "thread_103",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "March 7th is perfect! I'll make the reservation for 8 people. Any dietary restrictions?",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-19T14:30:00Z",
+      "from": {
+        "email": "sarah.chen@techcorp.io",
+        "name": "Sarah Chen"
+      },
+      "hasAttachments": false,
+      "id": 104,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1"
+      ],
+      "snippet": "March 7th is perfect! I'll make the reservation for 8 people. Any dietary restrictions?",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: Quarterly Team Dinner",
+      "threadId": "thread_104",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hey Alex, can you review my PR for the OAuth2 PKCE implementation? It's about 400 lines.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-18T09:00:00Z",
+      "from": {
+        "email": "priya.sharma@cloudnine.dev",
+        "name": "Priya Sharma"
+      },
+      "hasAttachments": false,
+      "id": 105,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": false,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_9"
+      ],
+      "snippet": "Hey Alex, can you review my PR for the OAuth2 PKCE implementation? It's about 400 lines.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Code Review Request: auth-service PR #42",
+      "threadId": "thread_105",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Heads up - we're adjusting enterprise tier pricing starting March 1st. Existing contracts unaffected.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-17T14:00:00Z",
+      "from": {
+        "email": "ryan.cooper@saasplatform.io",
+        "name": "Ryan Cooper"
+      },
+      "hasAttachments": false,
+      "id": 106,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1"
+      ],
+      "snippet": "Heads up - we're adjusting enterprise tier pricing starting March 1st. Existing contracts unaffected.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "SaaS Platform Q1 Pricing Update",
+      "threadId": "thread_106",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "We're hosting an open lab day on March 5th. Would love to show you our new quantum processor setup.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-16T11:00:00Z",
+      "from": {
+        "email": "kevin.zhao@quantumlab.tech",
+        "name": "Kevin Zhao"
+      },
+      "hasAttachments": false,
+      "id": 107,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_2"
+      ],
+      "snippet": "We're hosting an open lab day on March 5th. Would love to show you our new quantum processor setup.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Lab Tour Invitation",
+      "threadId": "thread_107",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "BioMed_Panel_Slides.pdf",
+          "size": "3.8 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Great seeing you at the conference! Here are the slides from the panel we discussed.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-15T16:00:00Z",
+      "from": {
+        "email": "jennifer.wu@biomedresearch.com",
+        "name": "Jennifer Wu"
+      },
+      "hasAttachments": true,
+      "id": 108,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_8"
+      ],
+      "snippet": "Great seeing you at the conference! Here are the slides from the panel we discussed.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "BioMed Conference Recap",
+      "threadId": "thread_108",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Reminder: please submit your self-assessment by end of day Friday. Template link in the HR portal.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-14T09:00:00Z",
+      "from": {
+        "email": "maya.patel@techcorp.io",
+        "name": "Maya Patel"
+      },
+      "hasAttachments": false,
+      "id": 109,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_12",
+        "label_17"
+      ],
+      "snippet": "Reminder: please submit your self-assessment by end of day Friday. Template link in the HR portal.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Performance Review Self-Assessment Due",
+      "threadId": "thread_109",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Good news - the city approved our renovation permit. Construction can begin March 10th.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-13T15:00:00Z",
+      "from": {
+        "email": "daniel.t@architectsllp.com",
+        "name": "Daniel Thompson"
+      },
+      "hasAttachments": false,
+      "id": 110,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY"
+      ],
+      "snippet": "Good news - the city approved our renovation permit. Construction can begin March 10th.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Permit Application Status",
+      "threadId": "thread_110",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "January 2026 summary: Total spend $234.56. Top services: Compute Engine, Cloud Storage, BigQuery.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-02-01T06:00:00Z",
+      "from": {
+        "email": "no-reply@google.com",
+        "name": "Google"
+      },
+      "hasAttachments": false,
+      "id": 111,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_3",
+        "label_15"
+      ],
+      "snippet": "January 2026 summary: Total spend $234.56. Top services: Compute Engine, Cloud Storage, BigQuery.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Your Google Cloud billing summary",
+      "threadId": "thread_111",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Trending: \"The end of traditional databases,\" \"Why WebAssembly changes everything,\" \"Lessons from building at scale.\"",
+      "category": "forums",
+      "cc": [],
+      "date": "2026-02-01T07:00:00Z",
+      "from": {
+        "email": "noreply@medium.com",
+        "name": "Medium"
+      },
+      "hasAttachments": false,
+      "id": 112,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_FORUMS",
+        "label_6"
+      ],
+      "snippet": "Trending: \"The end of traditional databases,\" \"Why WebAssembly changes everything,\" \"Lessons from building at scale.\"",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Daily Digest: Top stories in Technology",
+      "threadId": "thread_112",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "12 new jobs matching your preferences. Top match: Senior Engineering Manager at Stripe - San Francisco.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-01-31T08:00:00Z",
+      "from": {
+        "email": "notifications@linkedin.com",
+        "name": "LinkedIn"
+      },
+      "hasAttachments": false,
+      "id": 113,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL"
+      ],
+      "snippet": "12 new jobs matching your preferences. Top match: Senior Engineering Manager at Stripe - San Francisco.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Job alert: Senior Engineering Manager",
+      "threadId": "thread_113",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Based on your watching: \"The Algorithm\" (new series), \"Code Black\" (documentary), \"Silicon Valley: The Return.\"",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-01-30T06:00:00Z",
+      "from": {
+        "email": "info@mailer.netflix.com",
+        "name": "Netflix"
+      },
+      "hasAttachments": false,
+      "id": 114,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS"
+      ],
+      "snippet": "Based on your watching: \"The Algorithm\" (new series), \"Code Black\" (documentary), \"Silicon Valley: The Return.\"",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "New arrivals you might enjoy",
+      "threadId": "thread_114",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Alex, our retainer agreement is up for renewal in March. Let's schedule a call to discuss terms.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-01-28T10:00:00Z",
+      "from": {
+        "email": "james.obrien@lawfirm.legal",
+        "name": "James O'Brien"
+      },
+      "hasAttachments": false,
+      "id": 115,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_3"
+      ],
+      "snippet": "Alex, our retainer agreement is up for renewal in March. Let's schedule a call to discuss terms.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Annual Retainer Renewal",
+      "threadId": "thread_115",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "New release: v3.2.0 - Dashboard redesign, improved accessibility, performance optimizations.",
+      "category": "social",
+      "cc": [],
+      "date": "2026-01-27T16:00:00Z",
+      "from": {
+        "email": "notifications@github.com",
+        "name": "GitHub"
+      },
+      "hasAttachments": false,
+      "id": 116,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_SOCIAL",
+        "label_1"
+      ],
+      "snippet": "New release: v3.2.0 - Dashboard redesign, improved accessibility, performance optimizations.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "[techcorp/frontend] Release v3.2.0",
+      "threadId": "thread_116",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "DT_Assessment_2026.pdf",
+          "size": "4.5 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Attached is our initial assessment of your digital transformation readiness. Executive summary on page 3.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-01-25T09:00:00Z",
+      "from": {
+        "email": "omar.ar@consulting.group",
+        "name": "Omar Al-Rashid"
+      },
+      "hasAttachments": true,
+      "id": 117,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_19"
+      ],
+      "snippet": "Attached is our initial assessment of your digital transformation readiness. Executive summary on page 3.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Digital Transformation Assessment",
+      "threadId": "thread_117",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Three tech companies filed S-1s this week. The IPO market is back in full swing.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-01-24T06:30:00Z",
+      "from": {
+        "email": "crew@morningbrew.com",
+        "name": "Morning Brew"
+      },
+      "hasAttachments": false,
+      "id": 118,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_6"
+      ],
+      "snippet": "Three tech companies filed S-1s this week. The IPO market is back in full swing.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Daily Brew: Tech IPOs heat up",
+      "threadId": "thread_118",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "We just launched \"Kubernetes Mastery\" - from basics to production. Early enrollment discount: 30% off.",
+      "category": "promotions",
+      "cc": [],
+      "date": "2026-01-22T10:00:00Z",
+      "from": {
+        "email": "aisha.m@edtech.academy",
+        "name": "Aisha Mohammed"
+      },
+      "hasAttachments": false,
+      "id": 119,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PROMOTIONS",
+        "label_8"
+      ],
+      "snippet": "We just launched \"Kubernetes Mastery\" - from basics to production. Early enrollment discount: 30% off.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "New Course: Kubernetes Mastery",
+      "threadId": "thread_119",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "You're invited to our annual volunteer appreciation dinner on Feb 8th. RSVP by Jan 31.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-01-20T12:00:00Z",
+      "from": {
+        "email": "rachel.foster@nonprofitaid.org",
+        "name": "Rachel Foster"
+      },
+      "hasAttachments": false,
+      "id": 120,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_2"
+      ],
+      "snippet": "You're invited to our annual volunteer appreciation dinner on Feb 8th. RSVP by Jan 31.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Volunteer Appreciation Dinner",
+      "threadId": "thread_120",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "A new phone was added to your 2-Step Verification. If you didn't do this, review your security settings.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-01-19T15:00:00Z",
+      "from": {
+        "email": "no-reply@accounts.google.com",
+        "name": "Google"
+      },
+      "hasAttachments": false,
+      "id": 121,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "snippet": "A new phone was added to your 2-Step Verification. If you didn't do this, review your security settings.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "2-Step Verification: New phone added",
+      "threadId": "thread_121",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "2025_YearEnd_Summary.pdf",
+          "size": "2.3 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Attached: your 2025 financial summary with investment returns, tax estimates, and 2026 planning recommendations.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-01-18T09:00:00Z",
+      "from": {
+        "email": "david.kim@financeplus.com",
+        "name": "David Kim"
+      },
+      "hasAttachments": true,
+      "id": 122,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_3",
+        "label_19"
+      ],
+      "snippet": "Attached: your 2025 financial summary with investment returns, tax estimates, and 2026 planning recommendations.",
+      "snoozeUntil": null,
+      "starType": "yellow-star",
+      "subject": "Year-End Financial Summary 2025",
+      "threadId": "thread_122",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [
+        {
+          "name": "Portfolio_Mockups.pdf",
+          "size": "12.5 MB"
+        }
+      ],
+      "bcc": [],
+      "body": "Three mockup options for your personal portfolio site. Modern, minimal, or creative direction?",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-01-17T13:00:00Z",
+      "from": {
+        "email": "lisa.n@creativeagency.co",
+        "name": "Lisa Nakamura"
+      },
+      "hasAttachments": true,
+      "id": 123,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_2"
+      ],
+      "snippet": "Three mockup options for your personal portfolio site. Modern, minimal, or creative direction?",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Portfolio Website Mockups",
+      "threadId": "thread_123",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Build #4821 failed for staging. Error: TypeScript compilation error in src/components/Dashboard.tsx:47.",
+      "category": "updates",
+      "cc": [],
+      "date": "2026-01-16T02:30:00Z",
+      "from": {
+        "email": "notifications@vercel.com",
+        "name": "Vercel"
+      },
+      "hasAttachments": false,
+      "id": 124,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_UPDATES",
+        "label_1"
+      ],
+      "snippet": "Build #4821 failed for staging. Error: TypeScript compilation error in src/components/Dashboard.tsx:47.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Build failed: staging branch",
+      "threadId": "thread_124",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Join our 28-day fitness challenge! Daily workouts, nutrition tips, and weekly check-ins. Starts Feb 1.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-01-15T10:00:00Z",
+      "from": {
+        "email": "hannah.b@fitnessfirst.com",
+        "name": "Hannah Brooks"
+      },
+      "hasAttachments": false,
+      "id": 125,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_7"
+      ],
+      "snippet": "Join our 28-day fitness challenge! Daily workouts, nutrition tips, and weekly check-ins. Starts Feb 1.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "February Fitness Challenge",
+      "threadId": "thread_125",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hi Michelle, I'd be happy to participate. Next Tuesday or Wednesday afternoon works best for me.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-20T09:00:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": false,
+      "id": 126,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": true,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "SENT"
+      ],
+      "snippet": "Hi Michelle, I'd be happy to participate. Next Tuesday or Wednesday afternoon works best for me.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Re: Interview Request: Tech Innovation Panel",
+      "threadId": "thread_16",
+      "to": [
+        {
+          "email": "michelle.park@mediaco.tv",
+          "name": "Michelle Park"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Team, here's the agenda for our product strategy meeting on Thursday. Please review and add any items.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-19T08:00:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": false,
+      "id": 127,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": true,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "SENT"
+      ],
+      "snippet": "Team, here's the agenda for our product strategy meeting on Thursday. Please review and add any items.",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Meeting Agenda: Product Strategy",
+      "threadId": "thread_127",
+      "to": [
+        {
+          "email": "sarah.chen@techcorp.io",
+          "name": "Sarah Chen"
+        },
+        {
+          "email": "maya.patel@techcorp.io",
+          "name": "Maya Patel"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Hi Lisa, love direction #2 (minimal). A few tweaks: can we try a darker header and add a project filter?",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-17T14:00:00Z",
+      "from": {
+        "email": "alex.johnson@gmail.com",
+        "name": "Alex Johnson"
+      },
+      "hasAttachments": false,
+      "id": 128,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": true,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": false,
+      "isTrashed": false,
+      "labels": [
+        "SENT"
+      ],
+      "snippet": "Hi Lisa, love direction #2 (minimal). A few tweaks: can we try a darker header and add a project filter?",
+      "snoozeUntil": null,
+      "starType": null,
+      "subject": "Feedback on Design Mockups",
+      "threadId": "thread_128",
+      "to": [
+        {
+          "email": "lisa.n@creativeagency.co",
+          "name": "Lisa Nakamura"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Database connections maxing out. Need immediate attention. I'm pulling in the on-call team.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-14T02:00:00Z",
+      "from": {
+        "email": "sarah.chen@techcorp.io",
+        "name": "Sarah Chen"
+      },
+      "hasAttachments": false,
+      "id": 129,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": true,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_1",
+        "label_17"
+      ],
+      "snippet": "Database connections maxing out. Need immediate attention. I'm pulling in the on-call team.",
+      "snoozeUntil": null,
+      "starType": "red-bang",
+      "subject": "URGENT: Production database issue",
+      "threadId": "thread_129",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    },
+    {
+      "attachments": [],
+      "bcc": [],
+      "body": "Found this paper on efficient LLM inference. The pruning technique is fascinating.",
+      "category": "primary",
+      "cc": [],
+      "date": "2026-02-12T11:00:00Z",
+      "from": {
+        "email": "kevin.zhao@quantumlab.tech",
+        "name": "Kevin Zhao"
+      },
+      "hasAttachments": false,
+      "id": 130,
+      "isArchived": false,
+      "isDraft": false,
+      "isImportant": false,
+      "isMuted": false,
+      "isRead": true,
+      "isSent": false,
+      "isSnoozed": false,
+      "isSpam": false,
+      "isStarred": true,
+      "isTrashed": false,
+      "labels": [
+        "INBOX",
+        "CATEGORY_PRIMARY",
+        "label_8",
+        "label_19"
+      ],
+      "snippet": "Found this paper on efficient LLM inference. The pruning technique is fascinating.",
+      "snoozeUntil": null,
+      "starType": "purple-question",
+      "subject": "Interesting paper on LLM optimization",
+      "threadId": "thread_130",
+      "to": [
+        {
+          "email": "alex.johnson@gmail.com",
+          "name": "Alex Johnson"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": "label_1",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": true,
+        "star": false
+      },
+      "createdAt": "2025-06-10T09:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "notifications@github.com",
+        "hasAttachment": false,
+        "hasWords": "",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_1"
+    },
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": "label_6",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": true,
+        "star": false
+      },
+      "createdAt": "2025-07-15T10:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "crew@morningbrew.com",
+        "hasAttachment": false,
+        "hasWords": "",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_2"
+    },
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": "label_15",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": false,
+        "star": false
+      },
+      "createdAt": "2025-08-20T14:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "",
+        "hasAttachment": false,
+        "hasWords": "payment receipt",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "invoice",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_3"
+    },
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": "promotions",
+        "delete": false,
+        "forward": null,
+        "label": null,
+        "markRead": false,
+        "neverImportant": true,
+        "neverSpam": false,
+        "star": false
+      },
+      "createdAt": "2025-09-05T11:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "",
+        "hasAttachment": false,
+        "hasWords": "unsubscribe",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_4"
+    },
+    {
+      "actions": {
+        "alwaysImportant": true,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": "label_1",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": true,
+        "star": false
+      },
+      "createdAt": "2025-10-12T08:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "sarah.chen@techcorp.io",
+        "hasAttachment": false,
+        "hasWords": "",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_5"
+    },
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": null,
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": false,
+        "star": true
+      },
+      "createdAt": "2025-11-01T09:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "",
+        "hasAttachment": true,
+        "hasWords": "",
+        "size": 10,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_6"
+    },
+    {
+      "actions": {
+        "alwaysImportant": true,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": null,
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": true,
+        "star": false
+      },
+      "createdAt": "2025-12-15T10:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "no-reply@accounts.google.com",
+        "hasAttachment": false,
+        "hasWords": "",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "security",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_7"
+    },
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": "label_10",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": false,
+        "star": false
+      },
+      "createdAt": "2026-01-05T08:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "",
+        "hasAttachment": false,
+        "hasWords": "meeting agenda standup",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_8"
+    },
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": "label_12",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": false,
+        "star": false
+      },
+      "createdAt": "2026-01-15T09:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "hr@techcorp.io",
+        "hasAttachment": false,
+        "hasWords": "",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_9"
+    },
+    {
+      "actions": {
+        "alwaysImportant": true,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": "nate.patel@devops.tools",
+        "label": "label_17",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": true,
+        "star": true
+      },
+      "createdAt": "2026-01-20T11:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "alerts@datadog.com",
+        "hasAttachment": false,
+        "hasWords": "alert critical",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_10"
+    },
+    {
+      "actions": {
+        "alwaysImportant": true,
+        "archive": false,
+        "category": null,
+        "delete": false,
+        "forward": null,
+        "label": "label_1",
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": false,
+        "star": false
+      },
+      "createdAt": "2026-02-01T10:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "",
+        "hasAttachment": false,
+        "hasWords": "confidential",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_11"
+    },
+    {
+      "actions": {
+        "alwaysImportant": false,
+        "archive": false,
+        "category": "social",
+        "delete": false,
+        "forward": null,
+        "label": null,
+        "markRead": false,
+        "neverImportant": false,
+        "neverSpam": false,
+        "star": false
+      },
+      "createdAt": "2026-02-05T08:00:00Z",
+      "criteria": {
+        "doesntHave": "",
+        "from": "notifications@linkedin.com",
+        "hasAttachment": false,
+        "hasWords": "",
+        "size": null,
+        "sizeComparison": "greater",
+        "sizeUnit": "MB",
+        "subject": "",
+        "to": ""
+      },
+      "enabled": true,
+      "id": "filter_12"
+    }
+  ],
+  "labels": [
+    {
+      "color": null,
+      "id": "INBOX",
+      "messageCount": 104,
+      "name": "Inbox",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 19,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "STARRED",
+      "messageCount": 11,
+      "name": "Starred",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 3,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "SNOOZED",
+      "messageCount": 3,
+      "name": "Snoozed",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "SENT",
+      "messageCount": 7,
+      "name": "Sent",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "DRAFT",
+      "messageCount": 2,
+      "name": "Drafts",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "IMPORTANT",
+      "messageCount": 15,
+      "name": "Important",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 7,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "ALL_MAIL",
+      "messageCount": 121,
+      "name": "All Mail",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 19,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "SPAM",
+      "messageCount": 5,
+      "name": "Spam",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 5,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "TRASH",
+      "messageCount": 4,
+      "name": "Trash",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": null,
+      "id": "CATEGORY_PRIMARY",
+      "messageCount": 56,
+      "name": "Primary",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 9,
+      "visible": false
+    },
+    {
+      "color": null,
+      "id": "CATEGORY_SOCIAL",
+      "messageCount": 15,
+      "name": "Social",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 4,
+      "visible": false
+    },
+    {
+      "color": null,
+      "id": "CATEGORY_PROMOTIONS",
+      "messageCount": 14,
+      "name": "Promotions",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 2,
+      "visible": false
+    },
+    {
+      "color": null,
+      "id": "CATEGORY_UPDATES",
+      "messageCount": 21,
+      "name": "Updates",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 3,
+      "visible": false
+    },
+    {
+      "color": null,
+      "id": "CATEGORY_FORUMS",
+      "messageCount": 7,
+      "name": "Forums",
+      "parentId": null,
+      "type": "system",
+      "unreadCount": 1,
+      "visible": false
+    },
+    {
+      "color": {
+        "background": "#2962ff",
+        "text": "#fff"
+      },
+      "id": "label_1",
+      "messageCount": 38,
+      "name": "Work",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 12,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#2a8547",
+        "text": "#fff"
+      },
+      "id": "label_2",
+      "messageCount": 9,
+      "name": "Personal",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#e37400",
+        "text": "#fff"
+      },
+      "id": "label_3",
+      "messageCount": 10,
+      "name": "Finance",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#13828b",
+        "text": "#fff"
+      },
+      "id": "label_4",
+      "messageCount": 3,
+      "name": "Travel",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 1,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#d5ae49",
+        "text": "#000"
+      },
+      "id": "label_5",
+      "messageCount": 5,
+      "name": "Receipts",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#7e57c2",
+        "text": "#fff"
+      },
+      "id": "label_6",
+      "messageCount": 10,
+      "name": "Newsletters",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 2,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#cc3333",
+        "text": "#fff"
+      },
+      "id": "label_7",
+      "messageCount": 3,
+      "name": "Health",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#bbdefb",
+        "text": "#1565c0"
+      },
+      "id": "label_8",
+      "messageCount": 10,
+      "name": "Education",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#bbdefb",
+        "text": "#1565c0"
+      },
+      "id": "label_9",
+      "messageCount": 7,
+      "name": "Projects",
+      "parentId": "label_1",
+      "type": "user",
+      "unreadCount": 4,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#c8e6c9",
+        "text": "#2e7d32"
+      },
+      "id": "label_10",
+      "messageCount": 5,
+      "name": "Meetings",
+      "parentId": "label_1",
+      "type": "user",
+      "unreadCount": 1,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#ffe0b2",
+        "text": "#e65100"
+      },
+      "id": "label_11",
+      "messageCount": 4,
+      "name": "Clients",
+      "parentId": "label_1",
+      "type": "user",
+      "unreadCount": 1,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#e1bee7",
+        "text": "#7b1fa2"
+      },
+      "id": "label_12",
+      "messageCount": 2,
+      "name": "HR",
+      "parentId": "label_1",
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#fce4ec",
+        "text": "#880e4f"
+      },
+      "id": "label_13",
+      "messageCount": 0,
+      "name": "Family",
+      "parentId": "label_2",
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#b2dfdb",
+        "text": "#00695c"
+      },
+      "id": "label_14",
+      "messageCount": 1,
+      "name": "Friends",
+      "parentId": "label_2",
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#fff9c4",
+        "text": "#f57f17"
+      },
+      "id": "label_15",
+      "messageCount": 3,
+      "name": "Invoices",
+      "parentId": "label_3",
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#ffcdd2",
+        "text": "#c62828"
+      },
+      "id": "label_16",
+      "messageCount": 1,
+      "name": "Banking",
+      "parentId": "label_3",
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#b3005e",
+        "text": "#fff"
+      },
+      "id": "label_17",
+      "messageCount": 10,
+      "name": "Action Required",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 4,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#666",
+        "text": "#fff"
+      },
+      "id": "label_18",
+      "messageCount": 2,
+      "name": "Waiting For Reply",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 1,
+      "visible": true
+    },
+    {
+      "color": {
+        "background": "#e0e0e0",
+        "text": "#424242"
+      },
+      "id": "label_19",
+      "messageCount": 6,
+      "name": "Reference",
+      "parentId": null,
+      "type": "user",
+      "unreadCount": 0,
+      "visible": true
+    }
+  ],
+  "settings": {
+    "autoAdvance": "newer",
+    "buttonLabels": "icons",
+    "categoriesEnabled": {
+      "forums": true,
+      "primary": true,
+      "promotions": true,
+      "social": true,
+      "updates": true
+    },
+    "conversationView": true,
+    "defaultReplyBehavior": "reply",
+    "density": "default",
+    "desktopNotifications": "off",
+    "dynamicEmail": true,
+    "enabledStars": [
+      "yellow-star",
+      "orange-star",
+      "red-star",
+      "purple-star",
+      "blue-star",
+      "green-star",
+      "yellow-bang",
+      "red-bang",
+      "purple-question",
+      "orange-guillemet",
+      "blue-info"
+    ],
+    "hoverActions": true,
+    "importanceMarkers": true,
+    "inboxType": "default",
+    "keyboardShortcutsEnabled": true,
+    "language": "English (US)",
+    "maxPageSize": 50,
+    "multipleInboxPosition": "right",
+    "multipleInboxSections": [
+      {
+        "maxMessages": 25,
+        "name": "Starred",
+        "query": "is:starred"
+      },
+      {
+        "maxMessages": 25,
+        "name": "Snoozed",
+        "query": "is:snoozed"
+      },
+      {
+        "maxMessages": 25,
+        "name": "Work",
+        "query": "label:Work"
+      },
+      {
+        "maxMessages": 25,
+        "name": "Section 4",
+        "query": ""
+      },
+      {
+        "maxMessages": 25,
+        "name": "Section 5",
+        "query": ""
+      }
+    ],
+    "nudges": {
+      "suggestEmailsToFollowUp": true,
+      "suggestEmailsToReply": true
+    },
+    "previewPane": "none",
+    "sendAndArchive": true,
+    "theme": "default",
+    "undoSendDelay": 5
+  }
+}

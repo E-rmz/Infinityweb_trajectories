@@ -1,0 +1,21 @@
+{
+  "task_id": "task_e1",
+  "difficulty": "easy",
+  "instruction": "Star Sarah Chen's Q1 product roadmap email.",
+  "config": {
+    "budget": 40,
+    "max_depth": 4,
+    "top_k": 6,
+    "sim_steps": 4,
+    "ucb_c": 1.4,
+    "seed": 0
+  },
+  "n_passing_paths": 16,
+  "min_steps": 1,
+  "max_steps": 4,
+  "median_steps": 3,
+  "n_unique_states": 56,
+  "n_unique_action_keys": 7,
+  "elapsed_s": 180.95,
+  "error": null
+}

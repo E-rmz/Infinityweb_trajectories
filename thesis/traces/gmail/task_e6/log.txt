@@ -1,0 +1,23 @@
+[13:52:51] task=task_e6 difficulty=easy budget=15 max_depth=6 top_k=6
+[13:52:51] instruction: Switch to dark mode.
+[13:52:51] starting server on port 8765 for /Users/ehsan/Desktop/Thesis/webinfinity/webarena-infinity/apps/gmail
+[13:52:52] launching browser
+[13:52:53] seed state captured (hash=8e9baa18)
+[13:52:53] running MCTS...
+[13:52:59]   [rollout 1/15] 6.3s  paths=0  states=1
+[13:53:05]   [rollout 2/15] 6.2s  paths=0  states=1
+[13:53:11]   [rollout 3/15] 6.1s  paths=0  states=1
+[13:53:18]   [rollout 4/15] 6.2s  paths=0  states=1
+[13:53:24]   [rollout 5/15] 6.2s  paths=0  states=1
+[13:53:30]   [rollout 6/15] 6.2s  paths=0  states=1
+[13:53:37]   [rollout 7/15] 7.0s  paths=0  states=1
+[13:53:44]   [rollout 8/15] 7.0s  paths=0  states=1
+[13:53:51]   [rollout 9/15] 6.9s  paths=0  states=1
+[13:53:58]   [rollout 10/15] 7.1s  paths=0  states=1
+[13:54:05]   [rollout 11/15] 7.1s  paths=0  states=1
+[13:54:12]   [rollout 12/15] 7.0s  paths=1  states=2
+[13:54:19]   [rollout 13/15] 7.0s  paths=1  states=2
+[13:54:26]   [rollout 14/15] 6.9s  paths=1  states=2
+[13:54:33]   [rollout 15/15] 7.0s  paths=1  states=2
+[13:54:33] MCTS done in 100.1s — paths=1
+[13:54:33] persisting 1 passing trajector(y/ies)

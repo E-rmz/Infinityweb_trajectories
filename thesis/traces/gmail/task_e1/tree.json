@@ -1,0 +1,623 @@
+{
+  "depth": 0,
+  "visits": 40,
+  "wins": 25.0,
+  "passed": false,
+  "verifier_msg": "",
+  "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+  "action_from_parent": null,
+  "children": [
+    {
+      "depth": 1,
+      "visits": 18,
+      "wins": 18.0,
+      "passed": true,
+      "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+      "state_hash": "3dd25c070c2d007094eb8fa1bbf4ae510fd5ffbb",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-testid=email-star-1",
+        "value": null,
+        "label": "\u2606"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 3,
+          "wins": 3.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "980f016ee0efa12741678629dec978de3fd52d03",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-2",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": [
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "308045dca753a06577badf324741e668b27181b3",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-4",
+                "value": null,
+                "label": "\u2605"
+              },
+              "children": []
+            },
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "0a4e87ac88b1acf6e0e3d6faf3e1697b5773876e",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-5",
+                "value": null,
+                "label": "\u2606"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "visits": 3,
+          "wins": 3.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "1df0ddc01d00a092f5512a6cce714565937d6258",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-4",
+            "value": null,
+            "label": "\u2605"
+          },
+          "children": [
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "308045dca753a06577badf324741e668b27181b3",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-2",
+                "value": null,
+                "label": "\u2606"
+              },
+              "children": []
+            },
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "ab94c2c8d686ee36999d67b4f6e9eeb620c39754",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-5",
+                "value": null,
+                "label": "\u2606"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "visits": 3,
+          "wins": 3.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "f1014a32bacffa36fbcbc619122e2011f31956a3",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-5",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": [
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "0a4e87ac88b1acf6e0e3d6faf3e1697b5773876e",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-2",
+                "value": null,
+                "label": "\u2606"
+              },
+              "children": []
+            },
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "ab94c2c8d686ee36999d67b4f6e9eeb620c39754",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-4",
+                "value": null,
+                "label": "\u2605"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "visits": 3,
+          "wins": 3.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "cc2cb22e69e16077d9a0c5f80a4b3f94b32e172e",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-6",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": [
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "c698352426d95ac0548fe61119185da11ae2c860",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-2",
+                "value": null,
+                "label": "\u2606"
+              },
+              "children": []
+            },
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "d6386015dd6c0822443a2a5f6a2e958b0367514e",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-4",
+                "value": null,
+                "label": "\u2605"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "visits": 3,
+          "wins": 3.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "f279ae55e90ac11cd11d1414453cdf3e8491ada6",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-7",
+            "value": null,
+            "label": "\u2605"
+          },
+          "children": [
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "e3b5eb1be36fffc159539b78a2dbaac53482c8dd",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-2",
+                "value": null,
+                "label": "\u2606"
+              },
+              "children": []
+            },
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "9c883bc12aef60ac5806d8a71f0d44d311a42396",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-4",
+                "value": null,
+                "label": "\u2605"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "depth": 2,
+          "visits": 2,
+          "wins": 2.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "acc1aa53ef3d1ec02c7513710bf49b8ec3fa912e",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-8",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": [
+            {
+              "depth": 3,
+              "visits": 1,
+              "wins": 1.0,
+              "passed": true,
+              "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+              "state_hash": "f84a77f18ead05a06a05a157f01e894bd05352ef",
+              "action_from_parent": {
+                "kind": "click",
+                "selector": "data-testid=email-star-2",
+                "value": null,
+                "label": "\u2606"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 6,
+      "wins": 3.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "dcf1d92c276fa6d15e5e3805c7347df14641a9af",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-testid=email-star-2",
+        "value": null,
+        "label": "\u2606"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "980f016ee0efa12741678629dec978de3fd52d03",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-1",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "533533f14b2eb721c682db38530285083531c037",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-4",
+            "value": null,
+            "label": "\u2605"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "1efcfeb7595c22f9edcb1bdc32eceff81e54f1a1",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-5",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "639539da6eba606dc74878b89e5bfac45a436eeb",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-6",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "c1fca1eebca9917313d4db1c0bcfb662c06ea387",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-7",
+            "value": null,
+            "label": "\u2605"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 4,
+      "wins": 1.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "97743b013b0a11e7ab58d1f51c39d296ded70fbe",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-testid=email-star-4",
+        "value": null,
+        "label": "\u2605"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "1df0ddc01d00a092f5512a6cce714565937d6258",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-1",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "533533f14b2eb721c682db38530285083531c037",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-2",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "f426f34aebea5066c765e40427bb5ce8f55d75a0",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-5",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 4,
+      "wins": 1.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "c07847624bf06ae3c45ab78306fdc2bd48837c15",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-testid=email-star-5",
+        "value": null,
+        "label": "\u2606"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "f1014a32bacffa36fbcbc619122e2011f31956a3",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-1",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "1efcfeb7595c22f9edcb1bdc32eceff81e54f1a1",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-2",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "f426f34aebea5066c765e40427bb5ce8f55d75a0",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-4",
+            "value": null,
+            "label": "\u2605"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 4,
+      "wins": 1.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "aa057e1e42f44846769d4885950f8c17f5a89b44",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-testid=email-star-6",
+        "value": null,
+        "label": "\u2606"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "cc2cb22e69e16077d9a0c5f80a4b3f94b32e172e",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-1",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "639539da6eba606dc74878b89e5bfac45a436eeb",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-2",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "c8a5ec759e130f00d55b2cdddf1742629b9e6c13",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-4",
+            "value": null,
+            "label": "\u2605"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 4,
+      "wins": 1.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "f9365e1e413cb0ba60ca57388eb1e8575033427c",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-testid=email-star-7",
+        "value": null,
+        "label": "\u2605"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": true,
+          "verifier_msg": "Email id=1 ('Q1 Product Roadmap Review') is starred with starType='yellow-star'.",
+          "state_hash": "f279ae55e90ac11cd11d1414453cdf3e8491ada6",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-1",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "c1fca1eebca9917313d4db1c0bcfb662c06ea387",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-2",
+            "value": null,
+            "label": "\u2606"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "d798e3e19314684c619a2729aa99795962f68473",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-testid=email-star-4",
+            "value": null,
+            "label": "\u2605"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

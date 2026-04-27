@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "click",
+    "selector": "data-action=select-dropdown",
+    "value": null,
+    "label": "\u25be"
+  },
+  {
+    "kind": "click",
+    "selector": "id=menuToggle",
+    "value": null,
+    "label": "Main menu"
+  },
+  {
+    "kind": "click",
+    "selector": "id=settingsBtn",
+    "value": null,
+    "label": "Settings"
+  },
+  {
+    "kind": "click",
+    "selector": "id=composeBtn",
+    "value": null,
+    "label": "Compose"
+  },
+  {
+    "kind": "click",
+    "selector": "data-dropdown=theme-dropdown",
+    "value": null,
+    "label": "Default\n\u25be"
+  },
+  {
+    "kind": "click",
+    "selector": "dropdown-item=theme-dropdown/dark",
+    "value": null,
+    "label": "Dark"
+  }
+]

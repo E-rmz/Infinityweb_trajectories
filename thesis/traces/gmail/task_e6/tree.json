@@ -1,0 +1,242 @@
+{
+  "depth": 0,
+  "visits": 15,
+  "wins": 1.0,
+  "passed": false,
+  "verifier_msg": "",
+  "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+  "action_from_parent": null,
+  "children": [
+    {
+      "depth": 1,
+      "visits": 3,
+      "wins": 0.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "id=menuToggle",
+        "value": null,
+        "label": "Main menu"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=searchOptionsBtn",
+            "value": null,
+            "label": "Show search options"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=settingsBtn",
+            "value": null,
+            "label": "Settings"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 2,
+      "wins": 0.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "id=searchOptionsBtn",
+        "value": null,
+        "label": "Show search options"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=menuToggle",
+            "value": null,
+            "label": "Main menu"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 2,
+      "wins": 0.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "id=settingsBtn",
+        "value": null,
+        "label": "Settings"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "data-dropdown=language-dropdown",
+            "value": null,
+            "label": "English (US)\n\u25be"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 2,
+      "wins": 0.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "id=composeBtn",
+        "value": null,
+        "label": "Compose"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=menuToggle",
+            "value": null,
+            "label": "Main menu"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 2,
+      "wins": 0.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-action=toggle-labels",
+        "value": null,
+        "label": "\u25be"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=menuToggle",
+            "value": null,
+            "label": "Main menu"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "depth": 1,
+      "visits": 4,
+      "wins": 1.0,
+      "passed": false,
+      "verifier_msg": "",
+      "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+      "action_from_parent": {
+        "kind": "click",
+        "selector": "data-action=select-dropdown",
+        "value": null,
+        "label": "\u25be"
+      },
+      "children": [
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 1.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=menuToggle",
+            "value": null,
+            "label": "Main menu"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=searchOptionsBtn",
+            "value": null,
+            "label": "Show search options"
+          },
+          "children": []
+        },
+        {
+          "depth": 2,
+          "visits": 1,
+          "wins": 0.0,
+          "passed": false,
+          "verifier_msg": "",
+          "state_hash": "8e9baa18fc240aead4ca425a862049b2baec691a",
+          "action_from_parent": {
+            "kind": "click",
+            "selector": "id=settingsBtn",
+            "value": null,
+            "label": "Settings"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

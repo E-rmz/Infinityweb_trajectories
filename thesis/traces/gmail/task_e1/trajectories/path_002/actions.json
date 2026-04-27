@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "click",
+    "selector": "data-testid=email-star-1",
+    "value": null,
+    "label": "\u2606"
+  },
+  {
+    "kind": "click",
+    "selector": "data-testid=email-star-2",
+    "value": null,
+    "label": "\u2606"
+  }
+]

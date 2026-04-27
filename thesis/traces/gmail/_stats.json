@@ -1,0 +1,43 @@
+{
+  "per_task": [
+    {
+      "task_id": "task_e1",
+      "difficulty": "easy",
+      "n_passing_paths": 16,
+      "min_steps": 1,
+      "max_steps": 4,
+      "median_steps": 3,
+      "n_unique_states": 56,
+      "n_unique_action_keys": 7,
+      "elapsed_s": 181.43,
+      "error": null,
+      "pairwise_edit_distance_mean": 1.98,
+      "pairwise_edit_distance_max": 4
+    },
+    {
+      "task_id": "task_e6",
+      "difficulty": "easy",
+      "n_passing_paths": 1,
+      "min_steps": 6,
+      "max_steps": 6,
+      "median_steps": 6,
+      "n_unique_states": 2,
+      "n_unique_action_keys": 6,
+      "elapsed_s": 100.1,
+      "error": null,
+      "pairwise_edit_distance_mean": null,
+      "pairwise_edit_distance_max": null
+    }
+  ],
+  "by_difficulty": {
+    "easy": {
+      "total": 2,
+      "with_paths": 2,
+      "success_rate": 1.0,
+      "min_steps_avg": 3.5,
+      "median_steps_avg": 4.5,
+      "n_paths_avg": 8.5,
+      "edit_distance_avg": 1.98
+    }
+  }
+}

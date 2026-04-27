@@ -1,0 +1,21 @@
+{
+  "task_id": "task_e6",
+  "difficulty": "easy",
+  "instruction": "Switch to dark mode.",
+  "config": {
+    "budget": 15,
+    "max_depth": 6,
+    "top_k": 6,
+    "sim_steps": 4,
+    "ucb_c": 1.4,
+    "seed": 0
+  },
+  "n_passing_paths": 1,
+  "min_steps": 6,
+  "max_steps": 6,
+  "median_steps": 6,
+  "n_unique_states": 2,
+  "n_unique_action_keys": 6,
+  "elapsed_s": 100.1,
+  "error": null
+}
