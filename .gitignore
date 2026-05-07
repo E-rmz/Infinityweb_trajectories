@@ -25,4 +25,7 @@ infra/logs/
 
 # Local tool/IDE config
 .claude/
-.vscode/
+.vscode
+.opencode/ 
+thesis/report/
+MCTS_IMPLEMENTATION_REPORT.md
