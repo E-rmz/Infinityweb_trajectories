@@ -1,0 +1,207 @@
+{
+  "apply_label": {
+    "used_in": [
+      "task_e15",
+      "task_h1",
+      "task_h10",
+      "task_h12",
+      "task_h13",
+      "task_h18",
+      "task_h20",
+      "task_h6",
+      "task_h7",
+      "task_m1",
+      "task_m14",
+      "task_m3"
+    ],
+    "selectors": []
+  },
+  "archive_email": {
+    "used_in": [
+      "task_e4",
+      "task_h17",
+      "task_h3",
+      "task_m13"
+    ],
+    "selectors": []
+  },
+  "block_sender": {
+    "used_in": [
+      "task_m7"
+    ],
+    "selectors": []
+  },
+  "create_filter": {
+    "used_in": [
+      "task_h16",
+      "task_h4",
+      "task_m6"
+    ],
+    "selectors": []
+  },
+  "create_label": {
+    "used_in": [
+      "task_h1",
+      "task_h13",
+      "task_h7",
+      "task_m2"
+    ],
+    "selectors": []
+  },
+  "delete_email": {
+    "used_in": [
+      "task_h19"
+    ],
+    "selectors": []
+  },
+  "delete_filter": {
+    "used_in": [
+      "task_m10"
+    ],
+    "selectors": []
+  },
+  "delete_label": {
+    "used_in": [
+      "task_h20"
+    ],
+    "selectors": []
+  },
+  "mark_email_read": {
+    "used_in": [
+      "task_e10",
+      "task_e2",
+      "task_h12"
+    ],
+    "selectors": []
+  },
+  "mark_important": {
+    "used_in": [
+      "task_e15"
+    ],
+    "selectors": []
+  },
+  "move_email_category": {
+    "used_in": [
+      "task_h6",
+      "task_m3"
+    ],
+    "selectors": []
+  },
+  "move_to_inbox": {
+    "used_in": [
+      "task_e13",
+      "task_h18",
+      "task_m17"
+    ],
+    "selectors": []
+  },
+  "remove_label": {
+    "used_in": [
+      "task_e7",
+      "task_h10",
+      "task_h20",
+      "task_h6",
+      "task_m3",
+      "task_m5"
+    ],
+    "selectors": []
+  },
+  "snooze_email": {
+    "used_in": [
+      "task_m4"
+    ],
+    "selectors": []
+  },
+  "star_email": {
+    "used_in": [
+      "task_e1",
+      "task_h12",
+      "task_h6"
+    ],
+    "selectors": []
+  },
+  "trash_email": {
+    "used_in": [
+      "task_e11",
+      "task_e3",
+      "task_h11",
+      "task_h5",
+      "task_m16"
+    ],
+    "selectors": []
+  },
+  "unarchive_email": {
+    "used_in": [
+      "task_m17"
+    ],
+    "selectors": []
+  },
+  "unblock_sender": {
+    "used_in": [
+      "task_e19"
+    ],
+    "selectors": []
+  },
+  "unmark_important": {
+    "used_in": [
+      "task_e7"
+    ],
+    "selectors": []
+  },
+  "unsnooze_email": {
+    "used_in": [
+      "task_h18"
+    ],
+    "selectors": []
+  },
+  "unspam_email": {
+    "used_in": [
+      "task_e13",
+      "task_h19"
+    ],
+    "selectors": []
+  },
+  "unstar_email": {
+    "used_in": [
+      "task_e16",
+      "task_e8"
+    ],
+    "selectors": []
+  },
+  "update_filter": {
+    "used_in": [
+      "task_h15",
+      "task_h2"
+    ],
+    "selectors": []
+  },
+  "update_label": {
+    "used_in": [
+      "task_m9"
+    ],
+    "selectors": []
+  },
+  "update_settings": {
+    "used_in": [
+      "task_e12",
+      "task_e14",
+      "task_e17",
+      "task_e18",
+      "task_e20",
+      "task_e5",
+      "task_e6",
+      "task_e9",
+      "task_h14",
+      "task_h8",
+      "task_h9",
+      "task_m11",
+      "task_m12",
+      "task_m15",
+      "task_m18",
+      "task_m19",
+      "task_m20",
+      "task_m8"
+    ],
+    "selectors": []
+  }
+}

@@ -1,0 +1,1971 @@
+{
+  "schema_version": "0.1.0",
+  "app": "gmail",
+  "generated_at": "2026-05-12T23:11:58+00:00",
+  "templates": [
+    {
+      "task_id": "task_e1",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Star Sarah Chen's Q1 product roadmap email.",
+      "intent_skeleton": "Star {sender}'s {topic} email.",
+      "entities": {
+        "sender": "Sarah Chen",
+        "topic": "Q1 product roadmap"
+      },
+      "verifier_path": "real-tasks/task_e1.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=1].isStarred = True and emails[id=1].starType to a non-null value",
+      "affects_paths": [
+        "emails[id=1].isStarred",
+        "emails[id=1].starType"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 1
+      },
+      "semantic_actions": [
+        "star_email"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e2",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Mark the conference speaker invitation from Sophie Laurent as read.",
+      "intent_skeleton": "Mark the {topic} from {sender} as read.",
+      "entities": {
+        "topic": "conference speaker invitation",
+        "sender": "Sophie Laurent"
+      },
+      "verifier_path": "real-tasks/task_e2.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=14].isRead = True",
+      "affects_paths": [
+        "emails[id=14].isRead"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 14,
+        "target_mark_read": true
+      },
+      "semantic_actions": [
+        "mark_email_read"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e3",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Trash the property listing email from Tom Bradley.",
+      "intent_skeleton": "Trash the {topic} email from {sender}.",
+      "entities": {
+        "topic": "property listing",
+        "sender": "Tom Bradley"
+      },
+      "verifier_path": "real-tasks/task_e3.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=15].isTrashed = True",
+      "affects_paths": [
+        "emails[id=15].isTrashed"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 15,
+        "target_email_subject": "Property Listing: 45 Oak Avenue"
+      },
+      "semantic_actions": [
+        "trash_email"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e4",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Archive the shipping update from Carlos Mendez.",
+      "intent_skeleton": "Archive the {topic} from {sender}.",
+      "entities": {
+        "topic": "shipping update",
+        "sender": "Carlos Mendez"
+      },
+      "verifier_path": "real-tasks/task_e4.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=19].isArchived = True",
+      "affects_paths": [
+        "emails[id=19].isArchived"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 19,
+        "target_archive": true
+      },
+      "semantic_actions": [
+        "archive_email"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e5",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Turn off conversation view.",
+      "intent_skeleton": "Turn off {setting_name}",
+      "entities": {
+        "setting_name": "conversation view"
+      },
+      "verifier_path": "real-tasks/task_e5.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.conversationView = False",
+      "affects_paths": [
+        "settings.conversationView"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_setting_key": "conversationView",
+        "target_setting_value": false
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e6",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Switch to dark mode.",
+      "intent_skeleton": "Switch to {setting_value}.",
+      "entities": {
+        "setting_value": "dark mode"
+      },
+      "verifier_path": "real-tasks/task_e6.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.theme = 'dark'",
+      "affects_paths": [
+        "settings.theme"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "theme",
+        "target_setting_value": "dark"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 6,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e7",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "The collaboration proposal from Jennifer Wu isn't important — remove the importance marker.",
+      "intent_skeleton": "The {topic} from {sender} isn't important — remove the {label_name}.",
+      "entities": {
+        "topic": "collaboration proposal",
+        "sender": "Jennifer Wu",
+        "label_name": "importance marker"
+      },
+      "verifier_path": "real-tasks/task_e7.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=20].isImportant to False and removes 'IMPORTANT' from emails[id=20].labels",
+      "affects_paths": [
+        "emails[id=20].isImportant",
+        "emails[id=20].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 20,
+        "target_label_name": "IMPORTANT"
+      },
+      "semantic_actions": [
+        "unmark_important",
+        "remove_label"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e8",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Remove the star from Emily Rodriguez's partnership opportunity email.",
+      "intent_skeleton": "Remove the star from {sender}'s {topic} email.",
+      "entities": {
+        "sender": "Emily Rodriguez",
+        "topic": "partnership opportunity"
+      },
+      "verifier_path": "real-tasks/task_e8.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=7].isStarred = False and emails[id=7].starType = None",
+      "affects_paths": [
+        "emails[id=7].isStarred",
+        "emails[id=7].starType"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 7
+      },
+      "semantic_actions": [
+        "unstar_email"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e9",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Change the undo send timer to 30 seconds.",
+      "intent_skeleton": "Change the {setting_name} to {setting_value}.",
+      "entities": {
+        "setting_name": "undo send timer",
+        "setting_value": "30 seconds"
+      },
+      "verifier_path": "real-tasks/task_e9.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.undoSendDelay = 30",
+      "affects_paths": [
+        "settings.undoSendDelay"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "undoSendDelay",
+        "target_setting_value": 30
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e10",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Mark Priya Sharma's latest message about the API integration issue as read.",
+      "intent_skeleton": "Mark {sender}'s {message_selector} message about the {topic} as {status}.",
+      "entities": {
+        "sender": "Priya Sharma",
+        "message_selector": "latest",
+        "topic": "API integration issue",
+        "status": "read"
+      },
+      "verifier_path": "real-tasks/task_e10.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=2].isRead = True",
+      "affects_paths": [
+        "emails[id=2].isRead"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 2,
+        "target_mark_read": true
+      },
+      "semantic_actions": [
+        "mark_email_read"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e11",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Trash the volunteer event email from Ana Gutierrez.",
+      "intent_skeleton": "Trash the {topic} email from {sender}.",
+      "entities": {
+        "topic": "volunteer event",
+        "sender": "Ana Gutierrez"
+      },
+      "verifier_path": "real-tasks/task_e11.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=12].isTrashed = True",
+      "affects_paths": [
+        "emails[id=12].isTrashed"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 12,
+        "target_email_subject": "Volunteer Event: Spring Health Fair"
+      },
+      "semantic_actions": [
+        "trash_email"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e12",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Turn off hover actions.",
+      "intent_skeleton": "Turn off {setting_name}.",
+      "entities": {
+        "setting_name": "hover actions"
+      },
+      "verifier_path": "real-tasks/task_e12.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.hoverActions = False",
+      "affects_paths": [
+        "settings.hoverActions"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_setting_key": "hoverActions",
+        "target_setting_value": false
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e13",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "The Crypto Gains email in spam isn't actually spam — move it back to the inbox.",
+      "intent_skeleton": "The {sender} email in {source_label} isn't actually spam — move it back to the {target_label}.",
+      "entities": {
+        "sender": "Crypto Gains",
+        "source_label": "spam",
+        "target_label": "inbox"
+      },
+      "verifier_path": "real-tasks/task_e13.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=93].isSpam = False and adds 'INBOX' to emails[id=93].labels",
+      "affects_paths": [
+        "emails[id=93].isSpam",
+        "emails[id=93].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 93,
+        "target_email_subject": "Turn $100 into $100,000 with this coin!",
+        "target_label_name": "INBOX"
+      },
+      "semantic_actions": [
+        "unspam_email",
+        "move_to_inbox"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e14",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Set the default reply behavior to Reply all.",
+      "intent_skeleton": "Set the {setting_name} to {setting_value}.",
+      "entities": {
+        "setting_name": "default reply behavior",
+        "setting_value": "Reply all"
+      },
+      "verifier_path": "real-tasks/task_e14.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.defaultReplyBehavior = 'reply_all'",
+      "affects_paths": [
+        "settings.defaultReplyBehavior"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "defaultReplyBehavior",
+        "target_setting_value": "reply_all"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e15",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Mark Marcus Williams' Design System Update email as important.",
+      "intent_skeleton": "Mark {sender}' {topic} email as {label_name}.",
+      "entities": {
+        "sender": "Marcus Williams",
+        "topic": "Design System Update",
+        "label_name": "important"
+      },
+      "verifier_path": "real-tasks/task_e15.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=6].isImportant = True and adds 'IMPORTANT' to emails[id=6].labels",
+      "affects_paths": [
+        "emails[id=6].isImportant",
+        "emails[id=6].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 6,
+        "target_label_name": "IMPORTANT"
+      },
+      "semantic_actions": [
+        "mark_important",
+        "apply_label"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e16",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Unstar the contract review email from James O'Brien.",
+      "intent_skeleton": "Unstar the {topic} email from {sender}.",
+      "entities": {
+        "topic": "contract review",
+        "sender": "James O'Brien"
+      },
+      "verifier_path": "real-tasks/task_e16.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=11].isStarred = False and emails[id=11].starType = null.",
+      "affects_paths": [
+        "emails[id=11].isStarred",
+        "emails[id=11].starType"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 11
+      },
+      "semantic_actions": [
+        "unstar_email"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e17",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Switch to compact display density.",
+      "intent_skeleton": "Switch to {setting_value} display density.",
+      "entities": {
+        "setting_value": "compact"
+      },
+      "verifier_path": "real-tasks/task_e17.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.density = 'compact'",
+      "affects_paths": [
+        "settings.density"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "density",
+        "target_setting_value": "compact"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e18",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Turn off keyboard shortcuts.",
+      "intent_skeleton": "Turn off {setting_name}.",
+      "entities": {
+        "setting_name": "keyboard shortcuts"
+      },
+      "verifier_path": "real-tasks/task_e18.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.keyboardShortcutsEnabled = False",
+      "affects_paths": [
+        "settings.keyboardShortcutsEnabled"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_setting_key": "keyboardShortcutsEnabled",
+        "target_setting_value": false
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e19",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Unblock the sender annoying@daily-deals.biz.",
+      "intent_skeleton": "Unblock the sender {sender}.",
+      "entities": {
+        "sender": "annoying@daily-deals.biz"
+      },
+      "verifier_path": "real-tasks/task_e19.py",
+      "state_reads": [
+        "blockedSenders"
+      ],
+      "effect_summary": "Removes blockedSenders[email='annoying@daily-deals.biz'].",
+      "affects_paths": [
+        "blockedSenders[email='annoying@daily-deals.biz']"
+      ],
+      "effect_kind": "delete",
+      "bound_entities": {
+        "target_email_from": "annoying@daily-deals.biz"
+      },
+      "semantic_actions": [
+        "unblock_sender"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_e20",
+      "app": "gmail",
+      "difficulty": "easy",
+      "intent_raw": "Set the maximum page size to 25 conversations.",
+      "intent_skeleton": "Set the maximum page size to {setting_value} conversations.",
+      "entities": {
+        "setting_value": "25"
+      },
+      "verifier_path": "real-tasks/task_e20.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.maxPageSize = 25",
+      "affects_paths": [
+        "settings.maxPageSize"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "maxPageSize",
+        "target_setting_value": 25
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 1,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m1",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Add the Clients label to David Kim's tax season reminder email.",
+      "intent_skeleton": "Add the {label_name} label to {sender}'s {topic} email.",
+      "entities": {
+        "label_name": "Clients",
+        "sender": "David Kim",
+        "topic": "tax season reminder"
+      },
+      "verifier_path": "real-tasks/task_m1.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Adds 'label_11' to emails[id=28].labels",
+      "affects_paths": [
+        "emails[id=28].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 28,
+        "target_label_id": "label_11"
+      },
+      "semantic_actions": [
+        "apply_label"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m2",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Create a new label called 'Urgent' with a red background color.",
+      "intent_skeleton": "Create a new label called '{label_name}' with a {background_color} background color.",
+      "entities": {
+        "label_name": "Urgent",
+        "background_color": "red"
+      },
+      "verifier_path": "real-tasks/task_m2.py",
+      "state_reads": [
+        "labels"
+      ],
+      "effect_summary": "Creates a new label labels[*new] with name 'Urgent', type 'user', and a non-null color.",
+      "affects_paths": [
+        "labels[*new].name",
+        "labels[*new].type",
+        "labels[*new].color"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_label_name": "Urgent"
+      },
+      "semantic_actions": [
+        "create_label"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m3",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Move Emily Rodriguez's VC meetup email to the Social category.",
+      "intent_skeleton": "Move {sender}'s {topic} email to the {label_name} category.",
+      "entities": {
+        "sender": "Emily Rodriguez",
+        "topic": "VC meetup",
+        "label_name": "Social"
+      },
+      "verifier_path": "real-tasks/task_m3.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=30].category to 'social' and updates its labels.",
+      "affects_paths": [
+        "emails[id=30].category",
+        "emails[id=30].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 30,
+        "target_category": "social"
+      },
+      "semantic_actions": [
+        "move_email_category",
+        "apply_label",
+        "remove_label"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m4",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Snooze the CI/CD Pipeline Migration Plan email until tomorrow.",
+      "intent_skeleton": "Snooze the {topic} email until {time_period}.",
+      "entities": {
+        "topic": "CI/CD Pipeline Migration Plan",
+        "time_period": "tomorrow"
+      },
+      "verifier_path": "real-tasks/task_m4.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=9].isSnoozed = True, updates emails[id=9].snoozeUntil, and removes 'INBOX' from emails[id=9].labels.",
+      "affects_paths": [
+        "emails[id=9].isSnoozed",
+        "emails[id=9].snoozeUntil",
+        "emails[id=9].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 9
+      },
+      "semantic_actions": [
+        "snooze_email"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m5",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Remove the Action Required label from the contract review email by James O'Brien.",
+      "intent_skeleton": "Remove the {label_name} label from the {topic} email by {sender}.",
+      "entities": {
+        "label_name": "Action Required",
+        "topic": "contract review",
+        "sender": "James O'Brien"
+      },
+      "verifier_path": "real-tasks/task_m5.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Removes 'label_17' from emails[id=11].labels",
+      "affects_paths": [
+        "emails[id=11].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 11,
+        "target_label_id": "label_17"
+      },
+      "semantic_actions": [
+        "remove_label"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m6",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Set up a filter for emails from david.kim@financeplus.com that automatically applies the Finance label.",
+      "intent_skeleton": "Set up a filter for emails from {sender} that automatically applies the {label_name} label.",
+      "entities": {
+        "sender": "david.kim@financeplus.com",
+        "label_name": "Finance"
+      },
+      "verifier_path": "real-tasks/task_m6.py",
+      "state_reads": [
+        "filters"
+      ],
+      "effect_summary": "Creates a filter with criteria.from = 'david.kim@financeplus.com' and actions.label = 'label_3'.",
+      "affects_paths": [
+        "filters[*new].criteria.from",
+        "filters[*new].actions.label"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_filter_criteria_from": "david.kim@financeplus.com",
+        "target_label_id": "label_3"
+      },
+      "semantic_actions": [
+        "create_filter"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m7",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Block the sender of the '$5,000,000 inheritance' email in the trash.",
+      "intent_skeleton": "Block the sender of the {topic} email in the {label_name}.",
+      "entities": {
+        "topic": "'$5,000,000 inheritance'",
+        "label_name": "trash"
+      },
+      "verifier_path": "real-tasks/task_m7.py",
+      "state_reads": [
+        "blockedSenders"
+      ],
+      "effect_summary": "Adds 'prince.of.lagos@hotmail.com' to blockedSenders.",
+      "affects_paths": [
+        "blockedSenders[email='prince.of.lagos@hotmail.com']"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_email_from": "prince.of.lagos@hotmail.com"
+      },
+      "semantic_actions": [
+        "block_sender"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m8",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Disable the Social category tab in the inbox.",
+      "intent_skeleton": "Disable the {category_name} category tab in the inbox.",
+      "entities": {
+        "category_name": "Social"
+      },
+      "verifier_path": "real-tasks/task_m8.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.categoriesEnabled.social = False",
+      "affects_paths": [
+        "settings.categoriesEnabled.social"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_setting_key": "categoriesEnabled.social",
+        "target_setting_value": false,
+        "target_category": "social"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m9",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Rename the Reference label to Resources.",
+      "intent_skeleton": "Rename the {old_label_name} label to {new_label_name}.",
+      "entities": {
+        "old_label_name": "Reference",
+        "new_label_name": "Resources"
+      },
+      "verifier_path": "real-tasks/task_m9.py",
+      "state_reads": [
+        "labels"
+      ],
+      "effect_summary": "Sets labels[id='label_19'].name = 'Resources'",
+      "affects_paths": [
+        "labels[id='label_19'].name"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_label_id": "label_19",
+        "target_label_name": "Resources"
+      },
+      "semantic_actions": [
+        "update_label"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m10",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Delete the filter that handles GitHub notifications.",
+      "intent_skeleton": "Delete the filter that handles {filter_name}.",
+      "entities": {
+        "filter_name": "GitHub notifications"
+      },
+      "verifier_path": "real-tasks/task_m10.py",
+      "state_reads": [
+        "filters"
+      ],
+      "effect_summary": "Deletes filters[criteria.from='notifications@github.com']",
+      "affects_paths": [
+        "filters[criteria.from='notifications@github.com']"
+      ],
+      "effect_kind": "delete",
+      "bound_entities": {
+        "target_filter_criteria_from": "notifications@github.com"
+      },
+      "semantic_actions": [
+        "delete_filter"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m11",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Turn off the Send and Archive feature.",
+      "intent_skeleton": "Turn off the {feature_name} feature.",
+      "entities": {
+        "feature_name": "Send and Archive"
+      },
+      "verifier_path": "real-tasks/task_m11.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.sendAndArchive = False",
+      "affects_paths": [
+        "settings.sendAndArchive"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_setting_key": "sendAndArchive",
+        "target_setting_value": false
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m12",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Disable the Forums category.",
+      "intent_skeleton": "Disable the {category_name} category.",
+      "entities": {
+        "category_name": "Forums"
+      },
+      "verifier_path": "real-tasks/task_m12.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.categoriesEnabled.forums = False",
+      "affects_paths": [
+        "settings.categoriesEnabled.forums"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_setting_key": "categoriesEnabled.forums",
+        "target_setting_value": false,
+        "target_category": "forums"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m13",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Archive the latest Morning Brew newsletter.",
+      "intent_skeleton": "Archive the latest {sender} newsletter.",
+      "entities": {
+        "sender": "Morning Brew"
+      },
+      "verifier_path": "real-tasks/task_m13.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=77].isArchived = True and removes 'INBOX' from emails[id=77].labels.",
+      "affects_paths": [
+        "emails[id=77].isArchived",
+        "emails[id=77].labels"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": 77,
+        "target_archive": true
+      },
+      "semantic_actions": [
+        "archive_email"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m14",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Add the Projects label to the office renovation email from Daniel Thompson.",
+      "intent_skeleton": "Add the {label_name} label to the {topic} email from {sender}.",
+      "entities": {
+        "label_name": "Projects",
+        "topic": "office renovation",
+        "sender": "Daniel Thompson"
+      },
+      "verifier_path": "real-tasks/task_m14.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Adds 'label_9' to emails[id=17].labels",
+      "affects_paths": [
+        "emails[id=17].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 17,
+        "target_label_id": "label_9"
+      },
+      "semantic_actions": [
+        "apply_label"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m15",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Switch the inbox type to Important first.",
+      "intent_skeleton": "Switch the inbox type to {setting_value}.",
+      "entities": {
+        "setting_value": "Important first"
+      },
+      "verifier_path": "real-tasks/task_m15.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.inboxType = 'important_first'",
+      "affects_paths": [
+        "settings.inboxType"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "inboxType",
+        "target_setting_value": "important_first"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m16",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Empty the spam folder.",
+      "intent_skeleton": "Empty the {folder_name} folder.",
+      "entities": {
+        "folder_name": "spam"
+      },
+      "verifier_path": "real-tasks/task_m16.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Deletes emails[isSpam=True]",
+      "affects_paths": [
+        "emails[isSpam=True]"
+      ],
+      "effect_kind": "delete",
+      "bound_entities": {},
+      "semantic_actions": [
+        "trash_email"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m17",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Move the archived sprint planning notes from Sarah Chen back to the inbox.",
+      "intent_skeleton": "Move the {status} {topic} from {sender} back to the {destination}.",
+      "entities": {
+        "status": "archived",
+        "topic": "sprint planning notes",
+        "sender": "Sarah Chen",
+        "destination": "inbox"
+      },
+      "verifier_path": "real-tasks/task_m17.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=85].isArchived = False and updates emails[id=85].labels to include 'INBOX'.",
+      "affects_paths": [
+        "emails[id=85].isArchived",
+        "emails[id=85].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 85
+      },
+      "semantic_actions": [
+        "unarchive_email",
+        "move_to_inbox"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m18",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Turn off the reply nudge suggestions.",
+      "intent_skeleton": "Turn off the {setting_name}.",
+      "entities": {
+        "setting_name": "reply nudge suggestions"
+      },
+      "verifier_path": "real-tasks/task_m18.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.nudges.suggestEmailsToReply = False",
+      "affects_paths": [
+        "settings.nudges.suggestEmailsToReply"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_setting_key": "nudges.suggestEmailsToReply",
+        "target_setting_value": false
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m19",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Set auto-advance to go to the previous (older) conversation.",
+      "intent_skeleton": "Set {setting_name} to go to the {setting_value}.",
+      "entities": {
+        "setting_name": "auto-advance",
+        "setting_value": "previous (older) conversation"
+      },
+      "verifier_path": "real-tasks/task_m19.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.autoAdvance = 'older'",
+      "affects_paths": [
+        "settings.autoAdvance"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "autoAdvance",
+        "target_setting_value": "older"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_m20",
+      "app": "gmail",
+      "difficulty": "medium",
+      "intent_raw": "Change button labels to show text instead of icons.",
+      "intent_skeleton": "Change button labels to show {new_format} instead of {old_format}.",
+      "entities": {
+        "new_format": "text",
+        "old_format": "icons"
+      },
+      "verifier_path": "real-tasks/task_m20.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.buttonLabels = 'text'",
+      "affects_paths": [
+        "settings.buttonLabels"
+      ],
+      "effect_kind": "set",
+      "bound_entities": {
+        "target_setting_key": "buttonLabels",
+        "target_setting_value": "text"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 2,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h1",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Create a label called 'Q1 Priority' nested under Work, then apply it to Sarah Chen's Q1 Product Roadmap Review email.",
+      "intent_skeleton": "Create a label called '{label_name}' nested under {parent_label}, then apply it to {sender}'s {email_subject} email.",
+      "entities": {
+        "label_name": "Q1 Priority",
+        "parent_label": "Work",
+        "sender": "Sarah Chen",
+        "email_subject": "Q1 Product Roadmap Review"
+      },
+      "verifier_path": "real-tasks/task_h1.py",
+      "state_reads": [
+        "emails",
+        "labels"
+      ],
+      "effect_summary": "Creates a label 'Q1 Priority' nested under 'Work' (label_1) and adds its ID to emails[id=1].labels.",
+      "affects_paths": [
+        "labels[*new].name",
+        "labels[*new].parentId",
+        "emails[id=1].labels"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_label_name": "Q1 Priority",
+        "target_parent_label_id": "label_1",
+        "target_email_id": 1
+      },
+      "semantic_actions": [
+        "create_label",
+        "apply_label"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h2",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Update the Datadog alerts filter to also archive matching emails and forward them to priya.sharma@cloudnine.dev instead of nate.patel@devops.tools.",
+      "intent_skeleton": "Update the {filter_name} filter to also archive matching emails and forward them to {new_recipient} instead of {old_recipient}.",
+      "entities": {
+        "filter_name": "Datadog alerts",
+        "new_recipient": "priya.sharma@cloudnine.dev",
+        "old_recipient": "nate.patel@devops.tools"
+      },
+      "verifier_path": "real-tasks/task_h2.py",
+      "state_reads": [
+        "filters"
+      ],
+      "effect_summary": "Updates filters[id='filter_10'].actions.archive to True and filters[id='filter_10'].actions.forward to 'priya.sharma@cloudnine.dev'.",
+      "affects_paths": [
+        "filters[id='filter_10'].actions.archive",
+        "filters[id='filter_10'].actions.forward"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_filter_id": "filter_10",
+        "target_filter_criteria_from": "alerts@datadog.com",
+        "target_forward_email": "priya.sharma@cloudnine.dev",
+        "target_archive": true
+      },
+      "semantic_actions": [
+        "update_filter"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h3",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Archive all unread emails in the Social category.",
+      "intent_skeleton": "Archive all {email_status} emails in the {category_name} category.",
+      "entities": {
+        "email_status": "unread",
+        "category_name": "Social"
+      },
+      "verifier_path": "real-tasks/task_h3.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=31, 33, 37, 43].isArchived = True",
+      "affects_paths": [
+        "emails[id=31].isArchived",
+        "emails[id=33].isArchived",
+        "emails[id=37].isArchived",
+        "emails[id=43].isArchived"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": [
+          31,
+          33,
+          37,
+          43
+        ],
+        "target_category": "social",
+        "target_archive": true
+      },
+      "semantic_actions": [
+        "archive_email"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h4",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Set up a filter for emails with 'invoice' or 'payment' in the subject that automatically applies the Invoices label and marks them as read.",
+      "intent_skeleton": "Set up a filter for emails with '{topic_1}' or '{topic_2}' in the subject that automatically applies the {label_name} label and marks them as {setting_value}.",
+      "entities": {
+        "topic_1": "invoice",
+        "topic_2": "payment",
+        "label_name": "Invoices",
+        "setting_value": "read"
+      },
+      "verifier_path": "real-tasks/task_h4.py",
+      "state_reads": [
+        "filters"
+      ],
+      "effect_summary": "Creates a filter for emails with 'invoice' or 'payment' in the subject or body that applies label_15 and marks them as read.",
+      "affects_paths": [
+        "filters[*new].criteria.subject",
+        "filters[*new].criteria.hasWords",
+        "filters[*new].actions.label",
+        "filters[*new].actions.markRead"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_label_id": "label_15",
+        "target_mark_read": true,
+        "target_email_subject": "invoice"
+      },
+      "semantic_actions": [
+        "create_filter"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h5",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Trash all promotional emails from Amazon, Nike, and REI.",
+      "intent_skeleton": "Trash all {category} emails from {sender_1}, {sender_2}, and {sender_3}.",
+      "entities": {
+        "category": "promotional",
+        "sender_1": "Amazon",
+        "sender_2": "Nike",
+        "sender_3": "REI"
+      },
+      "verifier_path": "real-tasks/task_h5.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=44].isTrashed = True, emails[id=52].isTrashed = True, and emails[id=55].isTrashed = True.",
+      "affects_paths": [
+        "emails[id=44].isTrashed",
+        "emails[id=52].isTrashed",
+        "emails[id=55].isTrashed"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": [
+          44,
+          52,
+          55
+        ]
+      },
+      "semantic_actions": [
+        "trash_email"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h6",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Change the star on the United Airlines deal email to a green star, move it from Promotions to Primary, and apply the Action Required label.",
+      "intent_skeleton": "Change the star on the {sender} {topic} email to a {star_color} star, move it from {source_category} to {destination_category}, and apply the {label_name} label.",
+      "entities": {
+        "sender": "United Airlines",
+        "topic": "deal",
+        "star_color": "green",
+        "source_category": "Promotions",
+        "destination_category": "Primary",
+        "label_name": "Action Required"
+      },
+      "verifier_path": "real-tasks/task_h6.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=49].isStarred = True, emails[id=49].starType = 'green-star', emails[id=49].category = 'primary', and updates emails[id=49].labels to include 'CATEGORY_PRIMARY' and 'label_17' while removing 'CATEGORY_PROMOTIONS'.",
+      "affects_paths": [
+        "emails[id=49].isStarred",
+        "emails[id=49].starType",
+        "emails[id=49].category",
+        "emails[id=49].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 49,
+        "target_category": "primary",
+        "target_label_id": "label_17",
+        "target_label_name": "Action Required"
+      },
+      "semantic_actions": [
+        "star_email",
+        "move_email_category",
+        "apply_label",
+        "remove_label"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h7",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Create a nested label 'Taxes' under Finance, then apply it to both of David Kim's finance-related emails — the tax season reminder and the year-end financial summary.",
+      "intent_skeleton": "Create a nested label '{label_name}' under {parent_label}, then apply it to both of {sender}'s finance-related emails — the {email_subject_1} and the {email_subject_2}.",
+      "entities": {
+        "label_name": "Taxes",
+        "parent_label": "Finance",
+        "sender": "David Kim",
+        "email_subject_1": "tax season reminder",
+        "email_subject_2": "year-end financial summary"
+      },
+      "verifier_path": "real-tasks/task_h7.py",
+      "state_reads": [
+        "emails",
+        "labels"
+      ],
+      "effect_summary": "Creates a new label 'Taxes' (labels[*new]) with parentId 'label_3' and adds its ID to emails[id=28].labels and emails[id=122].labels.",
+      "affects_paths": [
+        "labels[*new]",
+        "labels[*new].name",
+        "labels[*new].parentId",
+        "labels[*new].type",
+        "emails[id=28].labels",
+        "emails[id=122].labels"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_label_name": "Taxes",
+        "target_parent_label_id": "label_3",
+        "target_email_id": [
+          28,
+          122
+        ]
+      },
+      "semantic_actions": [
+        "create_label",
+        "apply_label"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h8",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Switch to dark theme with compact density, disable both hover actions and dynamic email, and change the undo send delay to 20 seconds.",
+      "intent_skeleton": "Switch to {theme_name} theme with {density_level} density, disable both {feature_1} and {feature_2}, and change the {setting_name} to {setting_value}.",
+      "entities": {
+        "theme_name": "dark",
+        "density_level": "compact",
+        "feature_1": "hover actions",
+        "feature_2": "dynamic email",
+        "setting_name": "undo send delay",
+        "setting_value": "20 seconds"
+      },
+      "verifier_path": "real-tasks/task_h8.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Updates settings.theme to 'dark', settings.density to 'compact', settings.hoverActions to False, settings.dynamicEmail to False, and settings.undoSendDelay to 20.",
+      "affects_paths": [
+        "settings.theme",
+        "settings.density",
+        "settings.hoverActions",
+        "settings.dynamicEmail",
+        "settings.undoSendDelay"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_setting_key": [
+          "theme",
+          "density",
+          "hoverActions",
+          "dynamicEmail",
+          "undoSendDelay"
+        ],
+        "target_setting_value": [
+          "dark",
+          "compact",
+          false,
+          false,
+          20
+        ]
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h9",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Configure the multiple inbox: set section 1 to search 'is:important' with the name 'Priority', and section 2 to search 'label:Action Required' with the name 'Action Items'.",
+      "intent_skeleton": "Configure the multiple inbox: set section {section_number_1} to search '{search_query_1}' with the name '{section_name_1}', and section {section_number_2} to search '{search_query_2}' with the name '{section_name_2}'.",
+      "entities": {
+        "section_number_1": "1",
+        "search_query_1": "is:important",
+        "section_name_1": "Priority",
+        "section_number_2": "2",
+        "search_query_2": "label:Action Required",
+        "section_name_2": "Action Items"
+      },
+      "verifier_path": "real-tasks/task_h9.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.multipleInboxSections[query='is:important'].name = 'Priority' and settings.multipleInboxSections[query='label:Action Required'].name = 'Action Items'.",
+      "affects_paths": [
+        "settings.multipleInboxSections[query='is:important'].name",
+        "settings.multipleInboxSections[query='label:Action Required'].name"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_setting_key": "multipleInboxSections",
+        "target_setting_value": [
+          {
+            "query": "is:important",
+            "name": "Priority"
+          },
+          {
+            "query": "label:Action Required",
+            "name": "Action Items"
+          }
+        ],
+        "target_label_name": "Action Required"
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h10",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Remove all user labels from Priya Sharma's Sprint Retro Action Items email and add Waiting For Reply instead.",
+      "intent_skeleton": "Remove all user labels from {sender}'s {topic} email and add {label_name} instead.",
+      "entities": {
+        "sender": "Priya Sharma",
+        "topic": "Sprint Retro Action Items",
+        "label_name": "Waiting For Reply"
+      },
+      "verifier_path": "real-tasks/task_h10.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Removes 'label_1' and 'label_9' from emails[id=29].labels and adds 'label_18'.",
+      "affects_paths": [
+        "emails[id=29].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 29,
+        "target_email_subject": "Sprint Retro Action Items",
+        "target_label_id": [
+          "label_1",
+          "label_9",
+          "label_18"
+        ],
+        "target_label_name": [
+          "Work",
+          "Projects",
+          "Waiting For Reply"
+        ]
+      },
+      "semantic_actions": [
+        "remove_label",
+        "apply_label"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h11",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Trash all unread primary emails that have attachments.",
+      "intent_skeleton": "Trash all {email_status} {category_name} emails that have {email_feature}.",
+      "entities": {
+        "email_status": "unread",
+        "category_name": "primary",
+        "email_feature": "attachments"
+      },
+      "verifier_path": "real-tasks/task_h11.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=1, 6, 9, 26].isTrashed = True",
+      "affects_paths": [
+        "emails[id=1].isTrashed",
+        "emails[id=6].isTrashed",
+        "emails[id=9].isTrashed",
+        "emails[id=26].isTrashed"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": [
+          1,
+          6,
+          9,
+          26
+        ]
+      },
+      "semantic_actions": [
+        "trash_email"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h12",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Mark Marcus Williams' Design System Update as read, star it with a blue star, and apply the Projects label.",
+      "intent_skeleton": "Mark {sender}' {topic} as read, star it with a {star_color} star, and apply the {label_name} label.",
+      "entities": {
+        "sender": "Marcus Williams",
+        "topic": "Design System Update",
+        "star_color": "blue",
+        "label_name": "Projects"
+      },
+      "verifier_path": "real-tasks/task_h12.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=6].isRead = True, emails[id=6].isStarred = True, emails[id=6].starType = 'blue-star', and adds 'label_9' to emails[id=6].labels.",
+      "affects_paths": [
+        "emails[id=6].isRead",
+        "emails[id=6].isStarred",
+        "emails[id=6].starType",
+        "emails[id=6].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 6,
+        "target_label_id": "label_9",
+        "target_mark_read": true
+      },
+      "semantic_actions": [
+        "mark_email_read",
+        "star_email",
+        "apply_label"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h13",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Create a label called 'Conferences' under Work, and apply it to both Sophie Laurent's EuroDesign Summit email and the Figma Config 2026 email.",
+      "intent_skeleton": "Create a label called '{label_name}' under {parent_label}, and apply it to both {sender}'s {topic_1} email and the {topic_2} email.",
+      "entities": {
+        "label_name": "Conferences",
+        "parent_label": "Work",
+        "sender": "Sophie Laurent",
+        "topic_1": "EuroDesign Summit",
+        "topic_2": "Figma Config 2026"
+      },
+      "verifier_path": "real-tasks/task_h13.py",
+      "state_reads": [
+        "emails",
+        "labels"
+      ],
+      "effect_summary": "Creates a 'Conferences' label under 'Work' (label_1) and adds its ID to the labels list of emails[id=14] and emails[id=46].",
+      "affects_paths": [
+        "labels[*new]",
+        "labels[*new].name",
+        "labels[*new].parentId",
+        "labels[*new].type",
+        "emails[id=14].labels",
+        "emails[id=46].labels"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_label_name": "Conferences",
+        "target_parent_label_id": "label_1",
+        "target_email_id": [
+          14,
+          46
+        ]
+      },
+      "semantic_actions": [
+        "create_label",
+        "apply_label"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h14",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Disable the Promotions, Updates, and Forums category tabs, and change the inbox type to Important first.",
+      "intent_skeleton": "Disable the {category_name_1}, {category_name_2}, and {category_name_3} category tabs, and change the inbox type to {inbox_type}.",
+      "entities": {
+        "category_name_1": "Promotions",
+        "category_name_2": "Updates",
+        "category_name_3": "Forums",
+        "inbox_type": "Important first"
+      },
+      "verifier_path": "real-tasks/task_h14.py",
+      "state_reads": [
+        "settings"
+      ],
+      "effect_summary": "Sets settings.categoriesEnabled.promotions = False, settings.categoriesEnabled.updates = False, settings.categoriesEnabled.forums = False, and settings.inboxType = 'important_first'.",
+      "affects_paths": [
+        "settings.categoriesEnabled.promotions",
+        "settings.categoriesEnabled.updates",
+        "settings.categoriesEnabled.forums",
+        "settings.inboxType"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_setting_key": [
+          "categoriesEnabled.promotions",
+          "categoriesEnabled.updates",
+          "categoriesEnabled.forums",
+          "inboxType"
+        ],
+        "target_setting_value": [
+          false,
+          false,
+          false,
+          "important_first"
+        ],
+        "target_category": [
+          "promotions",
+          "updates",
+          "forums"
+        ]
+      },
+      "semantic_actions": [
+        "update_settings"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h15",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Edit the Morning Brew filter to also archive matching messages and mark them as read.",
+      "intent_skeleton": "Edit the {filter_name} filter to also archive matching messages and mark them as read.",
+      "entities": {
+        "filter_name": "Morning Brew"
+      },
+      "verifier_path": "real-tasks/task_h15.py",
+      "state_reads": [
+        "filters"
+      ],
+      "effect_summary": "Sets filters[id='filter_2'].actions.archive = True and filters[id='filter_2'].actions.markRead = True.",
+      "affects_paths": [
+        "filters[id='filter_2'].actions.archive",
+        "filters[id='filter_2'].actions.markRead"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_filter_id": "filter_2",
+        "target_filter_criteria_from": "crew@morningbrew.com",
+        "target_archive": true,
+        "target_mark_read": true
+      },
+      "semantic_actions": [
+        "update_filter"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h16",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Create a filter for emails with attachments larger than 5 MB that applies the Reference label and skips the inbox.",
+      "intent_skeleton": "Create a filter for emails with attachments larger than {attachment_size} that applies the {label_name} label and skips the inbox.",
+      "entities": {
+        "attachment_size": "5 MB",
+        "label_name": "Reference"
+      },
+      "verifier_path": "real-tasks/task_h16.py",
+      "state_reads": [
+        "filters"
+      ],
+      "effect_summary": "Creates a filter with criteria.hasAttachment = True, criteria.size = 5, actions.label = 'label_19', and actions.archive = True",
+      "affects_paths": [
+        "filters[*new].criteria.hasAttachment",
+        "filters[*new].criteria.size",
+        "filters[*new].actions.label",
+        "filters[*new].actions.archive"
+      ],
+      "effect_kind": "create",
+      "bound_entities": {
+        "target_label_id": "label_19",
+        "target_archive": true
+      },
+      "semantic_actions": [
+        "create_filter"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h17",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Archive all emails labeled Newsletters that are currently in the inbox.",
+      "intent_skeleton": "Archive all emails labeled {label_name} that are currently in the {folder_name}.",
+      "entities": {
+        "label_name": "Newsletters",
+        "folder_name": "inbox"
+      },
+      "verifier_path": "real-tasks/task_h17.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=72, 73, 75, 77, 78, 79, 80, 81, 112, 118].isArchived = True.",
+      "affects_paths": [
+        "emails[id=72].isArchived",
+        "emails[id=72].labels",
+        "emails[id=73].isArchived",
+        "emails[id=73].labels",
+        "emails[id=75].isArchived",
+        "emails[id=75].labels",
+        "emails[id=77].isArchived",
+        "emails[id=77].labels",
+        "emails[id=78].isArchived",
+        "emails[id=78].labels",
+        "emails[id=79].isArchived",
+        "emails[id=79].labels",
+        "emails[id=80].isArchived",
+        "emails[id=80].labels",
+        "emails[id=81].isArchived",
+        "emails[id=81].labels",
+        "emails[id=112].isArchived",
+        "emails[id=112].labels",
+        "emails[id=118].isArchived",
+        "emails[id=118].labels"
+      ],
+      "effect_kind": "toggle",
+      "bound_entities": {
+        "target_email_id": [
+          72,
+          73,
+          75,
+          77,
+          78,
+          79,
+          80,
+          81,
+          112,
+          118
+        ],
+        "target_archive": true,
+        "target_label_id": "label_6",
+        "target_label_name": "Newsletters"
+      },
+      "semantic_actions": [
+        "archive_email"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h18",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Unsnooze Tom Bradley's mortgage pre-approval email and add the Action Required label to it.",
+      "intent_skeleton": "Unsnooze {sender}'s {topic} email and add the {label_name} label to it.",
+      "entities": {
+        "sender": "Tom Bradley",
+        "topic": "mortgage pre-approval",
+        "label_name": "Action Required"
+      },
+      "verifier_path": "real-tasks/task_h18.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Sets emails[id=83].isSnoozed = False, emails[id=83].snoozeUntil = None, and adds 'INBOX' and 'label_17' to emails[id=83].labels",
+      "affects_paths": [
+        "emails[id=83].isSnoozed",
+        "emails[id=83].snoozeUntil",
+        "emails[id=83].labels"
+      ],
+      "effect_kind": "update",
+      "bound_entities": {
+        "target_email_id": 83,
+        "target_label_id": "label_17",
+        "target_label_name": "Action Required"
+      },
+      "semantic_actions": [
+        "unsnooze_email",
+        "apply_label",
+        "move_to_inbox"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h19",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Empty the trash, then report all the spam emails as not spam.",
+      "intent_skeleton": "Empty the {trash_folder}, then report all the {spam_folder} emails as not {spam_folder}.",
+      "entities": {
+        "trash_folder": "trash",
+        "spam_folder": "spam"
+      },
+      "verifier_path": "real-tasks/task_h19.py",
+      "state_reads": [
+        "emails"
+      ],
+      "effect_summary": "Deletes emails[isTrashed=True] and sets emails[isSpam=True].isSpam = False.",
+      "affects_paths": [
+        "emails[isTrashed=True]",
+        "emails[isSpam=True].isSpam",
+        "emails[subject='Turn $100']"
+      ],
+      "effect_kind": "delete",
+      "bound_entities": {
+        "target_email_subject": "Turn $100"
+      },
+      "semantic_actions": [
+        "delete_email",
+        "unspam_email"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    },
+    {
+      "task_id": "task_h20",
+      "app": "gmail",
+      "difficulty": "hard",
+      "intent_raw": "Delete the Receipts label and add the Finance label to all emails that previously had Receipts applied.",
+      "intent_skeleton": "Delete the {old_label} label and add the {new_label} label to all emails that previously had {old_label} applied.",
+      "entities": {
+        "old_label": "Receipts",
+        "new_label": "Finance"
+      },
+      "verifier_path": "real-tasks/task_h20.py",
+      "state_reads": [
+        "emails",
+        "labels"
+      ],
+      "effect_summary": "Deletes labels[id='label_5'] and updates emails[id=19, 22, 67, 69, 88].labels to include 'label_3' and exclude 'label_5'.",
+      "affects_paths": [
+        "labels[id='label_5']",
+        "labels[name='Receipts']",
+        "emails[id=19].labels",
+        "emails[id=22].labels",
+        "emails[id=67].labels",
+        "emails[id=69].labels",
+        "emails[id=88].labels"
+      ],
+      "effect_kind": "delete",
+      "bound_entities": {
+        "target_label_id": "label_5",
+        "target_label_name": "Receipts",
+        "target_email_id": [
+          19,
+          22,
+          67,
+          69,
+          88
+        ]
+      },
+      "semantic_actions": [
+        "delete_label",
+        "apply_label",
+        "remove_label"
+      ],
+      "estimated_min_actions": 3,
+      "seed_satisfies": false
+    }
+  ]
+}

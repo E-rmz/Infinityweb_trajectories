@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "n_templates": 60,
+    "n_errors": 0,
+    "n_warns": 4,
+    "n_failing_templates": 0,
+    "failing_task_ids": []
+  },
+  "issues": [
+    {
+      "task_id": "task_e7",
+      "check_id": "D9",
+      "severity": "warn",
+      "message": "effect_kind='update' not corroborated by any hint verb in summary/instruction; hints=['update', 'modify', 'rename', 'edit']"
+    },
+    {
+      "task_id": "task_e13",
+      "check_id": "D9",
+      "severity": "warn",
+      "message": "effect_kind='update' not corroborated by any hint verb in summary/instruction; hints=['update', 'modify', 'rename', 'edit']"
+    },
+    {
+      "task_id": "task_h9",
+      "check_id": "D9",
+      "severity": "warn",
+      "message": "effect_kind='update' not corroborated by any hint verb in summary/instruction; hints=['update', 'modify', 'rename', 'edit']"
+    },
+    {
+      "task_id": "task_h18",
+      "check_id": "D9",
+      "severity": "warn",
+      "message": "effect_kind='update' not corroborated by any hint verb in summary/instruction; hints=['update', 'modify', 'rename', 'edit']"
+    }
+  ]
+}

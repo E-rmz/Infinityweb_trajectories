@@ -11,6 +11,10 @@ wheels/
 
 # Environment variables
 .env
+pipeline/.env
+
+# Pipeline LLM extraction cache (content-hash JSON)
+pipeline/data/.cache/
 
 # Run results (git add -f to promote specific results worth keeping)
 **/results/
