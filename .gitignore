@@ -28,4 +28,5 @@ infra/logs/
 .vscode
 .opencode/ 
 thesis/report/
-MCTS_IMPLEMENTATION_REPORT.md
+MCTS_IMPLEMENTATION_REPORT.md**/__pycache__/
+*.pyc
